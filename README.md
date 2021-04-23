@@ -2,8 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
-| | |
+| Sophie du Couédic | 260007 |
 | | |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
@@ -56,4 +55,3 @@ Please, fill the following sections about your project.
 
 - < 24h: 80% of the grade for the milestone
 - < 48h: 70% of the grade for the milestone
-
