@@ -25,7 +25,7 @@ We choose to unite several datasets concerning coronavirus, first of them with t
 *Tweets datasets*
 - [Covid19 Tweets](https://www.kaggle.com/gpreda/covid19-tweets), by Gabriel Preda
 
-Note : the news dataset concerning covid are all trying to laber fake/true news. In fact, fake news are really a concern during those times, but it is not our purpose to try to classify the news, so we will simply ignore the fake/true label.
+Note : the news dataset concerning covid are all trying to label fake/true news. In fact, fake news are really a concern during those times, but it is not our purpose to try to classify the news, so we will simply ignore the fake/true label.
 
 ### Problematic
 
@@ -34,7 +34,7 @@ There are a lot of concerning and debating news and discussions about covid. Som
 The visualisation in that case have two main purposes:
 - To show to concerned people different new topics related to coronavirus to explore.
 - To get of grasp of the semantic representation of coronavirus, and how it impacted the meaning of certain words that were before so irrelevant (today the word lockdown hits totally differently).
-- Infer how the news and journalistic publication relates to people feelings, concerns of such an important event.
+- Infer how the news and journalistic publication relates to people feelings and concerns during such an important event.
 
 
 ### Exploratory Data Analysis
