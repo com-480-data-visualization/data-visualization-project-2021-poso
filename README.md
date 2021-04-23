@@ -52,9 +52,11 @@ Our approach: Our main idea is to visualize the words and phrases distributions 
 First of all, we will see the image representing the frequency of every included topic and its significance in the texts.
 The second idea is using text vectorization techniques to find the topics which are really close to each other in terms of covid and visualize that closeness, so we can detect really different topics concerning the people.
 
-
 ### Display inspiration
 We were inspired by the visual display of the meToo [work](http://metoomentum.com/assets/rooting.jpg) presented during the lecture, and will try to display in a similar architecture the different topics related to coronavirus.
+
+### Previous Courses
+Polina have worked with some tweets datas on the ADA and ML courses, but not with this current dataset, should I provide my work?
 
 ## Milestone 2 (7th May, 5pm)
 
