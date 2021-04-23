@@ -21,17 +21,20 @@ We choose to unite several datasets concerning coronavirus, first of them with t
 
 *News datasets*
 - [Covid fake news Dataset](https://data.mendeley.com/datasets/zwfdmp5syg/1), by Abhishek Koirala
--
+- [Covid fake news Dataset](https://zenodo.org/record/4282522#.YH0t0YMzaxB), by Sumit Banik
 *Tweets datasets*
 - [Covid19 Tweets](https://www.kaggle.com/gpreda/covid19-tweets), by Gabriel Preda
+
+Note : the news dataset concerning covid are all trying to laber fake/true news. In fact, fake news are really a concern during those times, but it is not our purpose to try to classify the news, so we will simply ignore the fake/true label.
 
 ### Problematic
 
 There are a lot of concerning and debating news and discussions about covid. Some of them are spreading fake information, some of them just sending panic messages. We want to explore the statistics of the texts and find the most redundants topics/words appearing in the texts, to get a grasp of the mindset of the people living this pandemic : their feelings, their concerns. The idea is also to see how the news content compares to the tweets content, to see if the news relates closely or not to what the population is really experiencing. Are the news using the same lexical field to talk about coronavirus? The second idea is to search the topics/words that relate closely to one another by afferring pairs of words that often appear in the same tweet/news (for example if “anxiety” appears often with the word “lockdown”) and make a graph of the topics related to each other.
 
 The visualisation in that case have two main purposes:
-To show the concerned people different topics to explore and compare the information.
-To provide the people who do not believe in covid19, the idea of how important and significant the topic is, also the terms and topics, which can be used to find the reliable information.
+- To show to concerned people different new topics related to coronavirus to explore.
+- To get of grasp of the semantic representation of coronavirus, and how it impacted the meaning of certain words that were before so irrelevant (today the word lockdown hits totally differently).
+- Infer how the news and journalistic publication relates to people feelings, concerns of such an important event.
 
 
 ### Exploratory Data Analysis
