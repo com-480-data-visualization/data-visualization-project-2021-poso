@@ -1,7 +1,7 @@
 # Project of Data Visualization (COM-480)
 
 | Student's name | SCIPER |
-| -------------- | ------ |
+| Polina Proskura | 328824 |
 | Sophie du Couédic | 260007 |
 | | |
 
