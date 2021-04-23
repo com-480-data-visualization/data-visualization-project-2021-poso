@@ -39,8 +39,9 @@ The visualisation in that case have two main purposes:
 
 ### Exploratory Data Analysis
 
-> Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
+The analysis is available in Exploratory_Data_Analysis.ipynb file.
+The text was cleaned, normalized and lemmatized. 
+There are data on most frequent words in the text and also most frequent bigrams, since there are topics strongly connected to each other. 
 
 ### Related work
 
