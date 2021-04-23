@@ -36,7 +36,6 @@ The visualisation in that case have two main purposes:
 - To get of grasp of the semantic representation of coronavirus, and how it impacted the meaning of certain words that were before so irrelevant (today the word lockdown hits totally differently).
 - See how the news and journalistic publication relates  to (and maybe influence as well) people feelings and concerns during such an important event.
 
-
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
@@ -44,11 +43,13 @@ The visualisation in that case have two main purposes:
 
 ### Related work
 
-Previous works with the data: The news datasets were used to train the classifier to detect the fake covid news and do not grow the panic in the world. The tweets dataset was used to do some exploratory analysis (dynamics of the tweets depend on time and geography). Also, there was a classification task to predict if the tweet was positive or negative.
+Previous works with the data:
+- The news datasets were used to train the classifier to detect the fake covid news and do not grow the panic in the world [link](https://arxiv.org/abs/2011.03327).
+- The tweets dataset was used to do some exploratory analysis, including the dynamics of the tweets depending on time and geography ([here](https://www.kaggle.com/gpreda/covid19-tweets/tasks?taskId=1505) and [here](https://www.kaggle.com/gpreda/covid19-tweets/tasks?taskId=1694)). Also, there was a classification task to predict if the tweet was positive or negative [link](https://www.kaggle.com/gpreda/covid19-tweets/tasks?taskId=1506).
 
 Our approach: Our main idea is to visualize the words and phrases distributions among the texts.
 First of all, we will see the image representing the frequency of every included topic and its significance in the texts.
-The second idea is using text vectorization techniques  to find the topics which are really close to each other in terms of covid and visualize that closeness, so we can detect really different topics concerning the people.
+The second idea is using text vectorization techniques to find the topics which are really close to each other in terms of covid and visualize that closeness, so we can detect really different topics concerning the people.
 
 ## Milestone 2 (7th May, 5pm)
 
