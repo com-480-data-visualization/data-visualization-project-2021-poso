@@ -59,8 +59,7 @@ We were inspired by the visual display of the meToo [work](http://metoomentum.co
 Polina have worked with some tweets datas on the ADA and ML courses, but not with this current dataset, should I provide my work?
 
 ## Milestone 2 (7th May, 5pm)
-
-**10% of the final grade**
+[Website](https://com-480-data-visualization.github.io/data-visualization-project-2021-poso/website/) of our project
 
 
 ## Milestone 3 (4th June, 5pm)
