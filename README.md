@@ -30,7 +30,7 @@ Note : the news dataset concerning covid are all trying to label fake/true news.
 
 There are a lot of concerning and debating news and discussions about covid. Some of them are spreading fake information, some of them just sending panic messages. We want to explore the statistics of the texts and find the most redundants topics/words appearing in the texts, to get a grasp of the mindset of the people living this pandemic : their feelings, their concerns. The idea is also to see how the news content compares to the tweets content, to see if the news relates closely or not to what the population is really experiencing. Are the news using the same lexical field to talk about coronavirus? The second idea is to search the topics/words that relate closely to one another by afferring pairs of words that often appear in the same tweet/news (for example if “anxiety” appears often with the word “lockdown”) and make a graph of the topics related to each other.
 
-The visualisation in that case have two main purposes:
+The visualization in that case have two main purposes:
 - To show to concerned people different new topics related to coronavirus to explore.
 - To get of grasp of the semantic representation of coronavirus, and how it impacted the meaning of certain words that were before so irrelevant (today the word lockdown hits totally differently).
 - See how the news and journalistic publication relates  to (and maybe influence as well) people feelings and concerns during such an important event.
@@ -74,17 +74,22 @@ project.
 visualization/widgets.
 
 ### Core visualization
-Ideally, the main visualization and it's related auxiliary layouts (see [extra features](#topic-chart-and-tweets-and-news-listing)) will remain on the main page. If implemented, we think that we will set a new tab per secondary vizualiation.
+Ideally, the main visualization and it's related [auxiliary layouts](#topic-chart-and-tweets-and-news-listing) will remain on the main page. If implemented, we think that we will set a new tab per secondary visualization, namely the [bicharts](#bicharts) and the [end-to-end graph](#end-to-end-graph-for-tweets).
 
-The core visualization consist of a network of topics, tweets and news. The tweets and news will be remain on an outter circle, with the different topics in the center of that circle. The tweets/news will be linked with their topics (possibly multiple topics per tweet or news) with very thin edges. The topics are linked to each others as well, with edge's thickness depending on how often two topics appear together.
+The core visualization consist of a network of topics, tweets and news. <a name="outter_circle"></a> The tweets and news will be remain on an outter circle, with the different topics in the center of that circle. The tweets/news will be linked with their topics (possibly multiple topics per tweet or news) with very thin edges. The topics are linked to each others as well, with edge's thickness depending on how often two topics appear together.
+
+**Note** : there are more than twenty thousands tweets and news in our database. Such a big database was useful to derive a representative topics, but we will display only a small subset of the tweets and the news in the outer circle.
+<a name="basic_idea"></a>
 ![basic idea](sketches/simple.png)
 
 #### Comparison between News and Tweets
 Recall that the main goal is to compare the semantic fields used in the news and the tweets. Therefore we need a way to do this comparison, and we decided to propose two ways of comparing the two semantic universe, the user simply click on a button to switch from one way to the other :
 * global-level comparison : we simply have the two networks side-by-side
 * topic-level comparison : when the user has his mouse over one topic, display the differences between tweets and news for this topic
+<a name="global_level_comparison"></a>
 ![global-level comparison](sketches/global_level_comparison.png)
 
+<a name="topic_level_comparison"></a>
 ![topic-level comparison](sketches/topic_level_comparison.png)
 
 #### Number of topics
@@ -106,12 +111,29 @@ In table on the side, we can list the first tweets and news related to the topic
 ![topic chart and tweets news listing](sketches/chart_tweet_news_listing.png)
 
 #### Bicharts
-The idea would be to do a bi-chart of the importance of the different topics for the news and the tweets. We can also do it for the fake news and the true news as well if we decide to consider this dimension in our visualisation.
+The idea would be to do a bi-chart of the importance of the different topics for the news and the tweets. We can also do it for the fake news and the true news as well if we decide to consider this dimension in our visualization.
 ![bichart news vs. tweets](sketches/bichart.png)
 
 #### End-to-end graph for tweets
 The tweets dataset contain the location where the tweet was originally posted, and the number of views for a given tweet. One interesting insight would be to see the popularity (meaning, how many times the tweet is retweeted) of the topics by country. Here is the visualization we are suggesting.
 ![end-to-end graph](sketches/end_to_end_graph.png)
+
+### Break down into independent pieces
+It is a little bit difficult to divide the core visualization into independent pieces, but we could follow such an plan to divide the work
+
+**Core visualization**
+1. [Proper network](#basic_idea): given a list of topics and tweet/news, compute the network.
+2. [Global level comparison](#global_level_comparison): compute the different lists to feed the previous part.
+3. [Topic-level comparison](#topic_level_comparison): adapt first step to handle by topic comparison of news and tweets
+4. [Number of topics](#number-of-topics): implement the slider and map the list of topics, tweets and news to the state of the slider
+
+**Navigation/Recursion** was defined [here](#navigation/recursion)
+5. Further parsing of the database to derive hierarchical relationships between the topics
+6. Uppon mouse click, construct list of child topics of the clicked topic, along with their related tweets-news
+
+**Secondary visualizations**
+1. [Bicharts](#bicharts): construct the bichart, along with a brush to display only subset of topics.
+3. [End-to-end graph for tweets](#end-to-end-graph-tweets)
 
 ## Milestone 3 (4th June, 5pm)
 
