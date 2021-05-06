@@ -74,7 +74,7 @@ project.
 visualization/widgets.
 
 ### Core visualization
-Ideally, all all the visualization layouts will remain on the main page of the website. If implemented, the other visualizations will in some tables on the side that will be collapsed by default. We hope that the visualization will be self-exploratory enough, so we won't have the need to put some explanation on the main page, but in a secondary page if needed.
+Ideally, the main visualization and it's related auxiliary layouts (see [extra features](#topic-chart-and-tweets-and-news-listing)) will remain on the main page. If implemented, we think that we will set a new tab per secondary vizualiation.
 
 The core visualization consist of a network of topics, tweets and news. The tweets and news will be remain on an outter circle, with the different topics in the center of that circle. The tweets/news will be linked with their topics (possibly multiple topics per tweet or news) with very thin edges. The topics are linked to each others as well, with edge's thickness depending on how often two topics appear together.
 ![basic idea](sketches/simple.png)
@@ -100,7 +100,7 @@ On the top of simply zooming/dezooming and playing with the sliding button to ha
 #### Tweets vs. Fake News vs True News
 We can simply adapt all the above to have three cathegories, namely `Tweets`, `Fake News`, `Correct News`. The datasets we use already have the correct labels.
 
-#### Topic Chart && direct tweets/news listing
+#### Topic Chart and Tweets and News listing
 In a [previous section](#comparison-between-news-and-tweets), we explained that when the user's mouse is over a given topic node, we display the repartition between news and tweets for that topic. We can additionally, in a table below, provide more informations for that node, for example the frequency of apparition in news and in tweets. We can also see how strongly it is related to other topics.
 In table on the side, we can list the first tweets and news related to the topic. The two table can be collapsed/expanded if the user wants to.
 ![topic chart and tweets news listing](sketches/chart_tweet_news_listing.png)
