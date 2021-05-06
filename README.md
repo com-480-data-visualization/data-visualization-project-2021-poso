@@ -105,6 +105,14 @@ In a [previous section](#comparison-between-news-and-tweets), we explained that 
 In table on the side, we can list the first tweets and news related to the topic. The two table can be collapsed/expanded if the user wants to.
 ![topic chart and tweets news listing](sketches/chart_tweet_news_listing.png)
 
+#### Bicharts
+The idea would be to do a bi-chart of the importance of the different topics for the news and the tweets. We can also do it for the fake news and the true news as well if we decide to consider this dimension in our visualisation.
+![bichart news vs. tweets](sketches/bichart.png)
+
+#### End-to-end graph for tweets
+The tweets dataset contain the location where the tweet was originally posted, and the number of views for a given tweet. One interesting insight would be to see the popularity (meaning, how many times the tweet is retweeted) of the topics by country. Here is the visualization we are suggesting.
+![end-to-end graph](sketches/end_to_end_graph.png)
+
 ## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
