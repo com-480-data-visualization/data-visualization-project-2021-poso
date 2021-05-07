@@ -8,31 +8,39 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
 </head>
 
 <body>
-
 <div class="jumbotron">
   <h1>Coronavirus Semantic Field</h1>
   <p>A comparison of tweets and news related to Covid-19</p>
 </div>
 
+
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <span class="navbar-brand">Poso Com-480</span>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="navbar-brand">Poso Com-480</span>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
 
 <section id="main-visualization" class="container">
-	<h2>Main visualization</h2>
+    <h2>Main visualization</h2>
 </section>
+
+
+<select id="selectButton"></select>
+
+<div id="my_dataviz"></div>
+<script src="barchar.js"></script>
+
 
 </body>
 </html>
