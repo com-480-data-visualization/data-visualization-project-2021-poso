@@ -60,6 +60,7 @@ We were inspired by the visual display of the meToo [work](http://metoomentum.co
 Polina have worked with some tweets datas on the ADA and ML courses, but not with this current dataset, should I provide my work?
 
 ## Milestone 2
+[**Website**](https://com-480-data-visualization.github.io/data-visualization-project-2021-poso/website/)
 
 ### Core visualization
 Ideally, the main visualization and it's related [auxiliary layouts](#topic-chart-and-tweets-and-news-listing) will remain on the main page. If implemented, we think that we will set a new tab per secondary visualization, namely the [bicharts](#bicharts) and the [end-to-end graph](#end-to-end-graph-for-tweets).
