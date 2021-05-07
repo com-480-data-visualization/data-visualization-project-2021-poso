@@ -137,12 +137,25 @@ It is a little bit difficult to divide the core visualization into independent p
 
 ### Tools
 #### Website design :
-we will use the framework [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/), and use what we learned in lecture 1, and exercices 1 to set the website architecture.
+* we will use the framework [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/), and use what we learned in `week 1 : Web Developement`, and `exercises 1` to set the website architecture.
 
 #### Data processing
 ???
 
-#### Core visualization
+#### Visualizations
+For each of the visualization, we have related lectures :
+
+* **Core visualization** ([see](#basic_idea)): we will need the content of `week 9 : Text visualization` and `week 10 : Graphs` to really have a good grasp of how to design the core visualization of the topics related to covid.
+
+* **Navigation/Recursion** ([see](#navigation/recursion)): To explore further the relation between the topics, it seems that `LSA viz` presented in week 9 could help?
+
+* **Bicharts** ([see](#bicharts)): the content from `exercises 4` and `exercises 5`, will help.
+
+* **End-to-End graph** ([see](#end-to-end-graph-tweets)): also needs the content of `week 10 : Graphs`
+
+The tools we plan to use for the visualization will be :
+* Graphs : [Cytoscape](https://js.cytoscape.org/) 
+* Overall visualization : [D3.js](https://d3js.org/)
 
 ## Milestone 3 (4th June, 5pm)
 
