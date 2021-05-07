@@ -135,6 +135,15 @@ It is a little bit difficult to divide the core visualization into independent p
 1. [Bicharts](#bicharts): construct the bichart, along with a brush to display only subset of topics.
 3. [End-to-end graph for tweets](#end-to-end-graph-tweets)
 
+### Tools
+#### Website design :
+we will use the framework [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/), and use what we learned in lecture 1, and exercices 1 to set the website architecture.
+
+#### Data processing
+???
+
+#### Core visualization
+
 ## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
