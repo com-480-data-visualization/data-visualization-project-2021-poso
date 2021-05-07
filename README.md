@@ -75,7 +75,6 @@ Recall that the main goal is to compare the semantic fields used in the news and
 <a name="global_level_comparison"></a>
 ![global-level comparison](sketches/global_level_comparison.png)
 
-<a name="topic_level_comparison"></a>
 ![topic-level comparison](sketches/topic_level_comparison.png)
 
 #### Number of topics
@@ -108,18 +107,18 @@ The tweets dataset contain the location where the tweet was originally posted, a
 It is a little bit difficult to divide the core visualization into independent pieces, but we could follow such an plan to divide the work
 
 **Core visualization**
-1. [Proper network](#basic_idea): given a list of topics and tweet/news, compute the network.
-2. [Global level comparison](#global_level_comparison): compute the different lists to feed the previous part.
-3. [Topic-level comparison](#topic_level_comparison): adapt first step to handle by topic comparison of news and tweets
-4. [Number of topics](#number-of-topics): implement the slider and map the list of topics, tweets and news to the state of the slider
+* [Proper network](#basic_idea): given a list of topics and tweet/news, compute the network.
+* [Global level comparison](#global_level_comparison): compute the different lists to feed the previous part.
+* [Topic-level comparison](#global_level_comparison): adapt first step to handle by topic comparison of news and tweets
+* [Number of topics](#number-of-topics): implement the slider and map the list of topics, tweets and news to the state of the slider
 
 **Navigation/Recursion** was defined [here](#navigation/recursion)
-5. Further parsing of the database to derive hierarchical relationships between the topics
-6. Uppon mouse click, construct list of child topics of the clicked topic, along with their related tweets-news
+* Further parsing of the database to derive hierarchical relationships between the topics
+* Uppon mouse click, construct list of child topics of the clicked topic, along with their related tweets-news
 
 **Secondary visualizations**
-1. [Bicharts](#bicharts): construct the bichart, along with a brush to display only subset of topics.
-3. [End-to-end graph for tweets](#end-to-end-graph-tweets)
+* [Bicharts](#bicharts): construct the bichart, along with a brush to display only subset of topics.
+* [End-to-end graph for tweets](#end-to-end-graph-for-tweets)
 
 ### Tools
 #### Website design :
@@ -139,7 +138,7 @@ For each of the visualization, we have related lectures :
 
 * **Bicharts** ([see](#bicharts)): the content from `exercises 4` and `exercises 5`, will help.
 
-* **End-to-End graph** ([see](#end-to-end-graph-tweets)): also needs the content of `week 10 : Graphs`
+* **End-to-End graph** ([see](#end-to-end-graph-for-tweets)): also needs the content of `week 10 : Graphs`
 
 The tools we plan to use for the visualization will be :
 * Graphs : [Cytoscape](https://js.cytoscape.org/)
