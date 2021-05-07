@@ -140,7 +140,9 @@ It is a little bit difficult to divide the core visualization into independent p
 we will use the framework [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/), and use what we learned in lecture 1, and exercices 1 to set the website architecture.
 
 #### Data processing
-???
+nltk, gensim -- for specific text analytics
+numpy, pandas, scikit-learn, matplotlib -- for general machine learning and analysis purposes
+networkx -- for working with the graph data
 
 #### Core visualization
 
