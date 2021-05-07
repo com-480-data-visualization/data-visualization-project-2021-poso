@@ -7,6 +7,8 @@
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
+[**Website**](https://com-480-data-visualization.github.io/data-visualization-project-2021-poso/website/) 
+
 ## Milestone 1
 
 **10% of the final grade**
