@@ -59,20 +59,6 @@ Polina have worked with some tweets datas on the ADA and ML courses, but not wit
 
 ## Milestone 2
 
-> Include sketches of the vizualiation you want to make in your final product.
-
-> List the tools that you will use for each visualization and which (past or future)
-lectures you will need.
-
-> Break down your goal into independent pieces to implement. Try to design a
-core visualization (minimal viable product) that will be required at the end.
-Then list extra ideas (more creative or challenging) that will enhance the
-visualization but could be dropped without endangering the meaning of the
-project.
-
-> You should have an initial website running with the basic skeleton of the
-visualization/widgets.
-
 ### Core visualization
 Ideally, the main visualization and it's related [auxiliary layouts](#topic-chart-and-tweets-and-news-listing) will remain on the main page. If implemented, we think that we will set a new tab per secondary visualization, namely the [bicharts](#bicharts) and the [end-to-end graph](#end-to-end-graph-for-tweets).
 
@@ -156,7 +142,7 @@ For each of the visualization, we have related lectures :
 * **End-to-End graph** ([see](#end-to-end-graph-tweets)): also needs the content of `week 10 : Graphs`
 
 The tools we plan to use for the visualization will be :
-* Graphs : [Cytoscape](https://js.cytoscape.org/) 
+* Graphs : [Cytoscape](https://js.cytoscape.org/)
 * Overall visualization : [D3.js](https://d3js.org/)
 
 ## Milestone 3 (4th June, 5pm)
