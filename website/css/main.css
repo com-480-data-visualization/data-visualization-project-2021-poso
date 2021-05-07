@@ -1,5 +1,26 @@
+html *
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
 .jumbotron {
-    background-color:#FFA500;
+    background-color:#add8e6;
     margin-bottom:0;
     text-align:center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h1 + p {
+    margin-top: 18px;
+    font-size: 20px;
 }
