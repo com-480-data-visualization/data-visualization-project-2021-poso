@@ -83,7 +83,7 @@ Let's consider the situation : we have hundreds of topics, and some are more imp
 
 ### Extra features
 
-#### Navigation/Recursion
+#### Navigation and Recursion
 On the top of simply zooming/dezooming and playing with the sliding button to have more/less topics, if possible we would like to provide a fancier way of navigating through the network. Intituively, each node of the network has his own subnetwork of topics. For example, subnetwork of `China` as root would probably consist of `Wuhan`, `government`, `America` topics (and so on). The idea is that if the user click on `China` from the original view, we recursively draw this subnetwork in the same way we did it with the overall network. The difficulty, is that now we need to have some hierarchy across the topics (child topics vs parent topics), and the parent-child relationships need to be derived from the statistics of the dataset.
 ![subnetworks](sketches/subnetworks.png)
 
@@ -112,7 +112,7 @@ It is a little bit difficult to divide the core visualization into independent p
 * [Topic-level comparison](#global_level_comparison): adapt first step to handle by topic comparison of news and tweets
 * [Number of topics](#number-of-topics): implement the slider and map the list of topics, tweets and news to the state of the slider
 
-**Navigation/Recursion** was defined [here](#navigation/recursion)
+**Navigation/Recursion** was defined [here](#navigation-and-recursion)
 * Further parsing of the database to derive hierarchical relationships between the topics
 * Uppon mouse click, construct list of child topics of the clicked topic, along with their related tweets-news
 
@@ -134,7 +134,7 @@ For each of the visualization, we have related lectures :
 
 * **Core visualization** ([see](#basic_idea)): we will need the content of `week 9 : Text visualization` and `week 10 : Graphs` to really have a good grasp of how to design the core visualization of the topics related to covid.
 
-* **Navigation/Recursion** ([see](#navigation/recursion)): To explore further the relation between the topics, it seems that `LSA viz` presented in week 9 could help?
+* **Navigation/Recursion** ([see](#navigation-and-recursion)): To explore further the relation between the topics, it seems that `LSA viz` presented in week 9 could help?
 
 * **Bicharts** ([see](#bicharts)): the content from `exercises 4` and `exercises 5`, will help.
 
