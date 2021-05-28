@@ -4,41 +4,41 @@
 
 
 var data1 = [ //emo
-    {group: "good", value: 16, value2: 18},
-    {group: "well", value: 24, value2: 28},
-    {group: "great", value: 7, value2: 6},
+    {group: "good", value: 16, value2: 20},
+    {group: "well", value: 24, value2: 14},
+    {group: "great", value: 7, value2: 14},
     {group: "best", value: 10, value2: 10},
-    {group: "hope", value: 7, value2: 6},
-    {group: "love", value: 3, value2: 1},
-    {group: "hard", value: 5, value2: 5},
-    {group: "relief", value: 4, value2: 2},
-    {group: "fear", value: 14, value2: 14},
-    {group: "worst", value: 3, value2: 3}
+    {group: "hope", value: 7, value2: 9},
+    {group: "love", value: 3, value2: 8},
+    {group: "hard", value: 5, value2: 6},
+    {group: "relief", value: 4, value2: 5},
+    {group: "fear", value: 14, value2: 5},
+    {group: "worst", value: 3, value2: 4}
 ];
 
 var data2 = [ //regular
     {group: "covid19", value: 21, value2: 2},
-    {group: "case", value: 9, value2: 22},
-    {group: "coronavirus", value: 31, value2: 26},
-    {group: "death", value: 5, value2: 6},
-    {group: "pandemic", value: 5, value2: 1},
-    {group: "mask", value: 4, value2: 4},
-    {group: "health", value: 10, value2: 26},
-    {group: "positive", value: 2, value2: 2},
-    {group: "test", value: 3, value2: 3},
-    {group: "vaccine", value: 6, value2: 3}
+    {group: "case", value: 9, value2: 25},
+    {group: "coronavirus", value: 31, value2: 17},
+    {group: "death", value: 5, value2: 12},
+    {group: "pandemic", value: 5, value2: 10},
+    {group: "mask", value: 4, value2: 8},
+    {group: "health", value: 10, value2: 6},
+    {group: "positive", value: 2, value2: 6},
+    {group: "test", value: 3, value2: 5},
+    {group: "vaccine", value: 6, value2: 4}
 ];
 
 var data3 = [
-    {group: "infection", value: 32, value2: 32},
-    {group: "respiratory", value: 15, value2: 23},
-    {group: "transmission", value: 6, value2: 9},
-    {group: "prevention", value: 5, value2: 9},
-    {group: "spreading", value: 7, value2: 8},
-    {group: "clinical", value: 6, value2: 4},
-    {group: "influenza", value: 4, value2: 4},
-    {group: "antibody", value: 9, value2: 1},
-    {group: "pathogen", value: 5, value2: 3},
+    {group: "infection", value: 32, value2: 35},
+    {group: "respiratory", value: 15, value2: 3},
+    {group: "transmission", value: 6, value2: 14},
+    {group: "prevention", value: 5, value2: 6},
+    {group: "spreading", value: 7, value2: 11},
+    {group: "clinical", value: 6, value2: 11},
+    {group: "influenza", value: 4, value2: 2},
+    {group: "antibody", value: 9, value2: 8},
+    {group: "pathogen", value: 5, value2: 0},
     {group: "biological", value: 5, value2: 1}
 ];
 
@@ -114,7 +114,7 @@ svg.append("text")
     .style("font-size", "24px")
     .style("fill", "#69b3a2")
     .style("text-anchor", "left")
-    .text("Real News");
+    .text("News Data");
 
 svg.append("text")
     .attr("x", 290)
@@ -122,7 +122,7 @@ svg.append("text")
     .style("font-size", "24px")
     .style("fill", "#a2db47")
     .style("text-anchor", "left")
-    .text("Fake news");
+    .text("Tweets");
 
 
 svg.append("g")
