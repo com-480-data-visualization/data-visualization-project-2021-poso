@@ -109,19 +109,21 @@ svg.append("g")
     .attr("transform", `translate(0,${height})`);
 
 svg.append("text")
-    .attr("x", 290)
+    .attr("x", 300)
     .attr("y", -250)
-    .style("font-size", "24px")
+    .style("font-size", "20px")
+    .style("text-align", "right")
     .style("fill", "#69b3a2")
-    .style("text-anchor", "left")
+    .style("text-anchor", "center")
     .text("News Data");
 
 svg.append("text")
-    .attr("x", 290)
+    .attr("x", 300)
     .attr("y", -225)
-    .style("font-size", "24px")
+    .style("font-size", "20px")
+    .style("text-align", "right")
     .style("fill", "#a2db47")
-    .style("text-anchor", "left")
+    .style("text-anchor", "center")
     .text("Tweets");
 
 

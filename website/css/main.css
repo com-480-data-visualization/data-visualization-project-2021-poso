@@ -8,11 +8,16 @@ html *
     background: transparent;
 }
 
+.navbar {
+    background-color: ghostwhite;
+}
+
 .jumbotron {
     background-color:#add8e6;
     margin-bottom:0;
     text-align:center;
 }
+
 
 h1 {
     text-transform: uppercase;
@@ -23,4 +28,33 @@ h1 {
 h1 + p {
     margin-top: 18px;
     font-size: 20px;
+}
+
+#project_description {
+    background-color: gainsboro;
+}
+
+#my_dataviz {
+    text-align: center;
+}
+
+#main-visualization {
+    text-align: center;
+}
+
+.fit-picture {
+    margin-left: auto;
+    width: 200px;
+}
+
+.fill_picture {
+    width: fit-content;
+    height: fit-content;
+}
+
+.portfolio-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
 }
