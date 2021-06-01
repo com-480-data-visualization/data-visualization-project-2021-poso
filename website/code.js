@@ -1,9 +1,9 @@
 Promise.all([
-  fetch('http://localhost:8080/website/data/cy-style.json', {mode: 'no-cors'})
+  fetch('data/cy-style.json', {mode: 'no-cors'})
     .then(function(res) {
       return res.json()
     }),
-  fetch('http://localhost:8080/website/data/new_data.json', {mode: 'no-cors'})
+  fetch('data/new_data.json', {mode: 'no-cors'})
     .then(function(res) {
       return res.json()
     })
