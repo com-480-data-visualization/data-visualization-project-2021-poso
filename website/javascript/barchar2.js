@@ -91,9 +91,6 @@ svg.append("g")
 // initialize groups
 var allGroup = ["emotions", "popular", "terminology"]
 
-//var color = d3.scale.ordinal()
-//    .range(["#ca0020","#f4a582","#d5d5d5","#92c5de","#0571b0"]);
-
 // add the options to the button
 d3.select("#selectButton")
     .selectAll('myOptions')
@@ -113,7 +110,7 @@ svg.append("text")
     .attr("y", -250)
     .style("font-size", "20px")
     .style("text-align", "right")
-    .style("fill", "#69b3a2")
+    .style("fill", "#ff9933")
     .style("text-anchor", "center")
     .text("News Data");
 
@@ -122,7 +119,7 @@ svg.append("text")
     .attr("y", -225)
     .style("font-size", "20px")
     .style("text-align", "right")
-    .style("fill", "#a2db47")
+    .style("fill", "#66b2ff")
     .style("text-anchor", "center")
     .text("Tweets");
 
@@ -144,7 +141,7 @@ function update(data) {
      svg.selectAll("g.myXaxis")
         .call(d3.axisBottom(x))
 
-    
+
     const maxValue = Math.max.apply(null, data.map(d => d.value));
     const maxValue2 = Math.max.apply(null, data.map(d => d.value2));
 
@@ -175,7 +172,7 @@ function update(data) {
         .attr("y", function(d) { return d.type === 1 ? y(d.value) : y(0); })
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return -y(d.value) + y(0); })
-        .attr("fill", function (d) {return d.type === 1 ? "#69b3a2" : "#a2db47"})
+        .attr("fill", function (d) {return d.type === 1 ? "#ff9933" : "#66b2ff"})
 }
 
 function convertData(data) {
