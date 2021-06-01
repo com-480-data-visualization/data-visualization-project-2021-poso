@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<title>Poso project</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta charset="utf-8"> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -11,6 +11,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0/js/bootstrap.min.js"></script>
 	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.18.2/cytoscape.min.js"></script>
 </head>
 
 <body>
@@ -23,6 +25,7 @@
 	</button>
 </nav>
 
+<!-- Title -->
 <div class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
 	<div class="container">
 		<h1>Coronavirus Semantic Field</h1>
@@ -30,6 +33,8 @@
 		<u>By Sophie du Couédic and Polina Proskura</u>
 	</div>
 </div>
+
+<!-- Gloabl description -->
 <div id="project_description" class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
 	<div class="container">
 		<h1>Problematics</h1>
@@ -42,18 +47,22 @@
 		</p>
 	</div>
 </div>
-<div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;">
 
-</div>
+<!-- <div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;"></div> -->
 
+<!-- graph vizu -->
+<section id="graph-visualization" class="container">
+	<h2>Topics connection</h2>
+	<div id="cy"></div>
+	<script src="code.js"></script>
+</section>
 
+<!-- barchar vizu -->
 <section id="barchar-visualization" class="container">
 	<h2>Topic apparitions in News and in Tweets</h2>
 	<select id="selectButton"></select>
 	<div id="my_dataviz"></div>
 	<script src="javascript/barchar2.js"></script>
 </section>
-
-
 </body>
 </html>

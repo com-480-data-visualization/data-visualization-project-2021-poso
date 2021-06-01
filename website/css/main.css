@@ -4,10 +4,6 @@ html *
     font-weight: 500;
 }
 
-/* .navbar-inner {
-    background: transparent;
-} */
-
 .navbar {
     background-color: ghostwhite;
 }
@@ -42,6 +38,11 @@ h1 + p {
     text-align: center;
 }
 
+body {
+  font-family: helvetica;
+  font-size: 14px;
+}
+
 .fit-picture {
     margin-left: auto;
     width: 200px;
@@ -57,4 +58,13 @@ h1 + p {
     margin-right: auto;
     width: 25%;
     height: 25%;
+}
+
+#cy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
 }
