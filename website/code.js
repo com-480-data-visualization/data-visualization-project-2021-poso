@@ -33,7 +33,10 @@ Promise.all([
 
       style: dataArray[0],
 
-      elements: dataArray[1]
+      elements: dataArray[1],
+
+      // interaction options :
+      zoomingEnabled:false
 
     });
   });
