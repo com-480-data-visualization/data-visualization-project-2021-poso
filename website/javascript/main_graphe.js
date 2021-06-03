@@ -8,6 +8,8 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+// fetch data and launch
+var cy;
 Promise.all([
   fetch('data/cy-style.json', {mode: 'no-cors'})
     .then(function(res) {
@@ -19,20 +21,21 @@ Promise.all([
     })
 ])
   .then(function(dataArray) {
-    var cy = window.cy = cytoscape({
+    cy = window.cy = cytoscape({
       container: document.getElementById('cy'),
 
       layout: {
         name: 'cose',
         idealEdgeLength: 100,
-        nodeOverlap: 20,
+        avoidOverlap: true,
+        nodeOverlap: 200,
         refresh: 20,
         fit: true,
         padding: 10,
-        randomize: false,
+        randomize: true,
         componentSpacing: 100,
-        nodeRepulsion: 400000,
-        edgeElasticity: 100,
+        nodeRepulsion: 100000,
+        edgeElasticity: 32,
         nestingFactor: 5,
         gravity: 80,
         numIter: 1000,
@@ -49,4 +52,31 @@ Promise.all([
       userZoomingEnabled:false,
       userPanningEnabled:false
     });
+
+    cy.ready(function() {
+      cy.nodes().forEach(function(ele) {
+        makePopper(ele);
+      });
+    });
+
+    cy.nodes().unbind('mouseover');
+    cy.nodes().bind('mouseover', (event) => event.target.tippy.show());
+
+    cy.nodes().unbind('mouseout');
+    cy.nodes().bind('mouseout', (event) => event.target.tippy.hide());
   });
+
+  function makePopper(ele) {
+     let ref = ele.popperRef(); // used only for positioning
+
+     ele.tippy = tippy(ref, { // tippy options:
+       content: () => {
+         let content = document.createElement('div');
+
+         content.innerHTML = ele.data("name");
+
+         return content;
+       },
+       trigger: 'manual' // probably want manual mode
+     });
+   }

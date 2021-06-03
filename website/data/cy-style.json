@@ -10,33 +10,12 @@
   "style": {
     "width": "mapData(score, 8071, 101246, 20, 60)",
     "height": "mapData(score, 8071, 101246, 20, 60)",
-    "content": "data(name)",
-    "font-size": "12px",
-    "text-valign": "center",
-    "text-halign": "center",
     "background-color": "#555",
     "text-outline-color": "#555",
     "text-outline-width": "2px",
     "color": "#fff",
     "overlay-padding": "6px",
     "z-index": "10"
-  }
-}, {
-  "selector": "node[?attr]",
-  "style": {
-    "shape": "rectangle",
-    "background-color": "#aaa",
-    "text-outline-color": "#aaa",
-    "width": "16px",
-    "height": "16px",
-    "font-size": "6px",
-    "z-index": "1"
-  }
-}, {
-  "selector": "node[?query]",
-  "style": {
-    "background-clip": "none",
-    "background-fit": "contain"
   }
 }, {
   "selector": "node:selected",
@@ -54,7 +33,7 @@
     "haystack-radius": "0.5",
     "opacity": "0.4",
     "line-color": "#bbb",
-    "width": "mapData(weight, 263, 101246, 1, 8)",
+    "width": "mapData(weight, 263, 13624, 1.5, 8)",
     "overlay-padding": "3px"
   }
 }, {
