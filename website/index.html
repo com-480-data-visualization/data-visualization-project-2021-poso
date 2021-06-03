@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<title>Poso project</title>
-	<!-- <meta charset="utf-8"> -->
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -26,7 +27,7 @@
 </nav>
 
 <!-- Title -->
-<div class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
+<div id="title" class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
 	<div class="container">
 		<h1>Coronavirus Semantic Field</h1>
 		<p>A comparison of tweets and news related to Covid-19</p>
@@ -40,22 +41,37 @@
 		<h1>Problematics</h1>
 		<p>
 			There are a lot of concerning and debating news and discussions about covid. Some of them are spreading fake information,
-			some of them just sending panic messages. The vizualisations explore the statistics of the texts and find the most redundants topics or words
+			some of them just sending panic messages. This work explores tweets and news realted to covid in order to find the most redundants topics
 			appearing in the texts, to get a grasp of the mindset of the people living this pandemic : their feelings, their concerns.
-			The idea is also to see how the news content compares to the tweets content, to see if the news relates closely or not to what the population
-			is really experiencing. Are the news using the same lexical field to talk about coronavirus?
+			Also, how does the news content compare to the tweets content? Do we find the same words, the same concerns, the same raising questions when talking about covid?
 		</p>
 	</div>
 </div>
 
-<!-- <div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;"></div> -->
+<!-- Virus image -->
+<div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;"></div>
 
-<!-- graph vizu -->
-<section id="graph-visualization" class="container">
-	<h2>Topics connection</h2>
-	<div id="cy"></div>
-	<script src="javascript/main_graphe.js"></script>
-</section>
+<!-- Main vizualisation -->
+<div id="main_vizu" class="vizu_section">
+	<div class="vizu_intro">
+		<h2> Words apparitions</h2>
+		<p>
+			Explore the apparitions of the different topics in the tweets and the news, and how the topics appear frequently together.
+		</p>
+		<a href="#cy_container" data-scroll>
+			<h1><span class="fas fa-angle-down"></span></h1>
+		</a>
+	</div>
+
+	<div id="cy_container" class="proper_vizu">
+		<div id="cy"></div>
+		<script src="javascript/main_graphe.js"></script>
+	</div>
+
+	<a href="#cy_container" data-scroll>
+		<h1><span class="fas fa-angle-up"></span></h1>
+	</a>
+</div>
 
 <!-- barchar vizu -->
 <section id="barchar-visualization" class="container">

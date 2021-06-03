@@ -1,3 +1,8 @@
+
+// need to set position of graphe here
+var topPos = document.getElementById('cy_container').offsetTop;
+document.getElementById('cy').style.marginTop = topPos + "px";
+
 Promise.all([
   fetch('data/cy-style.json', {mode: 'no-cors'})
     .then(function(res) {

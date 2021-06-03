@@ -5,15 +5,17 @@ html *
 }
 
 .navbar {
-    background-color: ghostwhite;
+    background: transparent;
 }
 
 .jumbotron {
-    background-color:#add8e6;
     margin-bottom:0;
-    text-align:center;
 }
 
+body {
+  font-size: 14px;
+  text-align: center;
+}
 
 h1 {
     text-transform: uppercase;
@@ -22,48 +24,47 @@ h1 {
 }
 
 h1 + p {
-    margin-top: 18px;
+    margin: 18px;
     font-size: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-weight: 600;
+    color: #202020;
+    margin: 22px;
+}
+
+h2 + p {
+    margin: 18px;
+    font-size: 16px;
+}
+
+.vizu_intro {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* --- Sections --- */
+#title {
+    background-color:#add8e6;
 }
 
 #project_description {
     background-color: gainsboro;
 }
 
-#my_dataviz {
-    text-align: center;
-}
-
-#main-visualization {
-    text-align: center;
-}
-
-body {
-  font-family: helvetica;
-  font-size: 14px;
-}
-
-.fit-picture {
-    margin-left: auto;
-    width: 200px;
-}
-
-.fill_picture {
-    width: fit-content;
-    height: fit-content;
-}
-
-.portfolio-box {
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    height: 25%;
+#cy_container {
+    width: 100vw;
+    height: 100vh;
 }
 
 #cy {
   width: 100%;
   height: 100%;
   position: absolute;
+  text-align: left;
   left: 0;
   top: 0;
   z-index: 999;
