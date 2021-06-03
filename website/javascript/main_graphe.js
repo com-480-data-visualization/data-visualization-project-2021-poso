@@ -1,7 +1,12 @@
-
-// need to set position of graphe here
+// need to reposition graphe whenever viewport changes
 var topPos = document.getElementById('cy_container').offsetTop;
 document.getElementById('cy').style.marginTop = topPos + "px";
+document.addEventListener('keydown', function(event) {
+    // full screen
+    if(event.keyCode == 122) {
+        location.reload();
+    }
+});
 
 Promise.all([
   fetch('data/cy-style.json', {mode: 'no-cors'})
@@ -23,7 +28,7 @@ Promise.all([
         nodeOverlap: 20,
         refresh: 20,
         fit: true,
-        padding: 30,
+        padding: 10,
         randomize: false,
         componentSpacing: 100,
         nodeRepulsion: 400000,
@@ -41,7 +46,7 @@ Promise.all([
       elements: dataArray[1],
 
       // interaction options :
-      zoomingEnabled:false
-
+      userZoomingEnabled:false,
+      userPanningEnabled:false
     });
   });
