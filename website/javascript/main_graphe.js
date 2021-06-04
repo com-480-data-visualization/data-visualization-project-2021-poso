@@ -1,3 +1,9 @@
+// constants
+var min_score = 460;
+var max_score = 5000;
+var min_area = 1000;
+var score_thr = 1000;
+
 // need to reposition graphe whenever viewport changes
 var topPos = document.getElementById('cy_container').offsetTop;
 document.getElementById('cy').style.marginTop = topPos + "px";
@@ -12,7 +18,6 @@ document.addEventListener('keydown', function(event) {
 var $ = document.querySelector.bind(document);
 
 // fetch data and launch
-var score_thr = 1000;
 var removed_elems;
 Promise.all([
     // style
@@ -38,13 +43,25 @@ Promise.all([
         userPanningEnabled:false
     });
 
+    cy.style()
+        .selector('node')
+        .style('width', function(elem) {
+            var area = (parseFloat(elem.data('score'))/min_score) * min_area;
+            return Math.sqrt(area/Math.PI);
+        })
+        .style('height', function(elem){
+            var area = (parseFloat(elem.data('score'))/min_score) * min_area;
+            return Math.sqrt(area/Math.PI);
+        })
+        .update();
+
     var to_rem = cy.nodes('[score < ' + score_thr + ']');
     removed_elems = cy.remove(to_rem);
 
     // sliders to tune the parameters
     var slider = {
-          min: 460,
-          max: 5000,
+          min: min_score,
+          max: max_score,
           initial: score_thr
         }
     makeSlider(slider);
@@ -92,7 +109,7 @@ function makeSlider( opts ){
 
     var $param = create_dom_elem('div', { 'class': 'param' }, []);
     var $label = create_dom_elem('label', { 'class': 'label label-default', for: 'slider-nb-topics' },
-        [ create_dom_text('Min number of apparitions') ]);
+        [ create_dom_text('Select minimal number of apparitions') ]);
     var $output = create_dom_elem('output', {
         id: 'nb-topics-value',
         for: 'slider-nb-topics'
@@ -171,13 +188,14 @@ var graphe_layout = {
     name: 'cose',
     idealEdgeLength: 100,
     avoidOverlap: true,
-    nodeOverlap: 200,
+    avoidOverlapPadding: 10,
+    nodeOverlap: 1000,
     refresh: 20,
     fit: true,
     padding: 10,
     randomize: true,
     componentSpacing: 100,
-    nodeRepulsion: 100000,
+    nodeRepulsion: 1000,
     edgeElasticity: 32,
     nestingFactor: 5,
     gravity: 80,
