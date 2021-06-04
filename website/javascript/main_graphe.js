@@ -1,8 +1,10 @@
 // constants
 var min_score = 460;
 var max_score = 5000;
-var min_area = 1000;
+var min_area = 2000;
 var score_thr = 1000;
+// var label_colors = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"];
+var label_colors = ["#1DC7BE", "#B284B5", "#B4340F", "#043E6E", "#E54DB1"];
 
 // need to reposition graphe whenever viewport changes
 var topPos = document.getElementById('cy_container').offsetTop;
@@ -26,7 +28,7 @@ Promise.all([
         return res.json()
     }),
     // data
-    fetch('data/topics_connexions_500.json', {mode: 'no-cors'})
+    fetch('data/topics_connexions.json', {mode: 'no-cors'})
     .then(function(res) {
         return res.json()
     })
@@ -52,6 +54,12 @@ Promise.all([
         .style('height', function(elem){
             var area = (parseFloat(elem.data('score'))/min_score) * min_area;
             return Math.sqrt(area/Math.PI);
+        })
+        .style('background-color', function(elem){
+            return label_colors[elem.data('label')];
+        })
+        .style('text-outline-color', function(elem){
+            return label_colors[elem.data('label')];
         })
         .update();
 
@@ -189,13 +197,13 @@ var graphe_layout = {
     idealEdgeLength: 100,
     avoidOverlap: true,
     avoidOverlapPadding: 10,
-    nodeOverlap: 1000,
+    nodeOverlap: 3000,
     refresh: 20,
     fit: true,
     padding: 10,
     randomize: true,
     componentSpacing: 100,
-    nodeRepulsion: 1000,
+    nodeRepulsion: 100000,
     edgeElasticity: 32,
     nestingFactor: 5,
     gravity: 80,
