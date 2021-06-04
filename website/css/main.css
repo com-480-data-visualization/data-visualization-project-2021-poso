@@ -45,6 +45,9 @@ h2 + p {
     height: 100%;
 }
 
+.label {
+    display: block;
+}
 
 /* --- Sections --- */
 #title {
@@ -72,15 +75,25 @@ h2 + p {
 .config {
   position: absolute;
   right: 0;
-  padding-top: 100px;
+  padding-top: 10px;
   height: 100%;
-  width: 17em;
+  width: 22em;
   background: rgba(160, 179, 220, 0.666);
   box-sizing: border-box;
-  color: #fff;
+  color: black;
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: ease-out;
   overflow: auto;
   z-index: 1;
+}
+
+.config .label {
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.slider {
+    width: 80%;
 }

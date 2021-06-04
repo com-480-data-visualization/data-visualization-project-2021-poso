@@ -12,7 +12,8 @@ document.addEventListener('keydown', function(event) {
 var $ = document.querySelector.bind(document);
 
 // fetch data and launch
-var cy;
+var score_thr = 1000;
+var removed_elems;
 Promise.all([
     // style
     fetch('data/cy-style.json', {mode: 'no-cors'})
@@ -26,7 +27,7 @@ Promise.all([
     })
 ])
 .then(function(dataArray) {
-    cy = window.cy = cytoscape({
+    var cy = window.cy = cytoscape({
         container: document.getElementById('cy'),
         // graphe layout
         layout: graphe_layout,
@@ -37,21 +38,16 @@ Promise.all([
         userPanningEnabled:false
     });
 
-    // sliders to tune parameters
-    var sliders = [
-        {
-          label: 'Edge length',
-          param: 'edgeLengthVal',
-          min: 1,
-          max: 200
-        }, {
-          label: 'Node spacing',
-          param: 'nodeSpacing',
-          min: 1,
-          max: 50
+    var to_rem = cy.nodes('[score < ' + score_thr + ']');
+    removed_elems = cy.remove(to_rem);
+
+    // sliders to tune the parameters
+    var slider = {
+          min: 460,
+          max: 5000,
+          initial: score_thr
         }
-    ];
-    sliders.forEach( makeSlider );
+    makeSlider(slider);
 
     cy.ready(function() {
         cy.nodes().forEach(function(ele) {
@@ -84,38 +80,74 @@ function makePopper(ele) {
 
 // sliders
 function makeSlider( opts ){
-    var $input = create_elem('input', {
-        // id: 'slider-'+opts.param,
+    var $input = create_dom_elem('input', {
+        id: 'slider-nb-topics',
         type: 'range',
         min: opts.min,
         max: opts.max,
         step: 1,
-        value: graphe_layout[ opts.param ],
+        value: opts.initial,
         'class': 'slider'
     }, []);
 
-    var $param = create_elem('div', { 'class': 'param' }, []);
-    var $label = create_elem('label', { 'class': 'label label-default', for: 'slider-'+opts.param }, [ t(opts.label) ]);
+    var $param = create_dom_elem('div', { 'class': 'param' }, []);
+    var $label = create_dom_elem('label', { 'class': 'label label-default', for: 'slider-nb-topics' },
+        [ create_dom_text('Min number of apparitions') ]);
+    var $output = create_dom_elem('output', {
+        id: 'nb-topics-value',
+        for: 'slider-nb-topics'
+    }, []);
+    $output.value = $input.value;
 
     $param.appendChild( $label );
     $param.appendChild( $input );
+    $param.appendChild( $output);
 
     var $config = $('#cy-config');
     $config.appendChild( $param );
 
+    // remove or add nodes depending on input value
     var update = _.throttle(function(){
-        graphe_layout[ opts.param ] = $input.value;
+        value = $input.value;
+        $output.value = value;
 
-        // layout.stop();
-        // layout = makeLayout();
-        // layout.run();
+        // add nodes
+        if(value < score_thr) {
+            // restore nodes
+            var nodes_to_restore = removed_elems.filter('[score >= ' + value + ']');
+            nodes_to_restore.restore();
+            removed_elems = removed_elems.difference(nodes_to_restore);
+
+            // restore edges
+            var edges_to_restore = removed_elems.filter('edge[source = "-1"]');
+            nodes_to_restore.forEach( function(ele, i, eles){
+                var i_edges = removed_elems.filter(
+                    'edge[source = "' + ele.id() + '"], edge[target= "' + ele.id() + '"]'
+                )
+                    .filter(function(edge, j, elses){
+                        var target = edge.target();
+                        return !target.removed();
+                    });
+
+                edges_to_restore = edges_to_restore.union(i_edges);
+            });
+            edges_to_restore.restore();
+            removed_elems = removed_elems.difference(edges_to_restore);
+
+        // remove nodes
+        } else {
+            var to_rem = cy.nodes('[score < ' + value + ']');
+            removed_elems = removed_elems.union(cy.remove(to_rem));
+        }
+        score_thr = value;
+
     }, 1000/30);
 
     $input.addEventListener('input', update);
     $input.addEventListener('change', update);
 }
 
-var create_elem = function(tag, attrs, children){
+var create_dom_elem = function(tag, attrs, children){
     var el = document.createElement(tag);
 
     Object.keys(attrs).forEach(function(key){
@@ -130,7 +162,7 @@ var create_elem = function(tag, attrs, children){
     return el;
 };
 
-var t = function(text){
+var create_dom_text = function(text){
     var el = document.createTextNode(text);
     return el;
 };
@@ -153,4 +185,5 @@ var graphe_layout = {
     initialTemp: 200,
     coolingFactor: 0.95,
     minTemp: 1.0,
+    animate: true
 };
