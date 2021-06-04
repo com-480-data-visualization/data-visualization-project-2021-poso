@@ -67,5 +67,20 @@ h2 + p {
   text-align: left;
   left: 0;
   top: 0;
-  z-index: 999;
+}
+
+.config {
+  position: absolute;
+  right: 0;
+  padding-top: 100px;
+  height: 100%;
+  width: 17em;
+  background: rgba(160, 179, 220, 0.666);
+  box-sizing: border-box;
+  color: #fff;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+  overflow: auto;
+  z-index: 1;
 }
