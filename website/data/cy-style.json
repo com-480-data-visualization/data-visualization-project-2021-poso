@@ -10,12 +10,12 @@
   "style": {
     "width": "mapData(score, 460, 101246, 60, 296)",
     "height": "mapData(score, 460, 101246, 60, 296)",
-    "font-size": "16px",
+    "font-size": "50px",
     "text-valign": "center",
     "text-halign": "center",
     "background-color": "#555",
     "text-outline-color": "#555",
-    "text-outline-width": "2px",
+    "text-outline-width": "10px",
     "color": "#fff",
     "overlay-padding": "6px",
     "z-index": "10"
@@ -24,7 +24,7 @@
     "selector": "node[idInt = 0]",
     "style": {
       "content": "data(name)",
-      "font-size": "20px",
+      "font-size": "60px",
       "font-weight": "bold"
     }
 }, {
