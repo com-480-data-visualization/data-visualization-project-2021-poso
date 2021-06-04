@@ -8,8 +8,11 @@
 }, {
   "selector": "node",
   "style": {
-    "width": "mapData(score, 8071, 101246, 20, 60)",
-    "height": "mapData(score, 8071, 101246, 20, 60)",
+    "width": "mapData(score, 460, 101246, 20, 60)",
+    "height": "mapData(score, 460, 101246, 20, 60)",
+    "font-size": "16px",
+    "text-valign": "center",
+    "text-halign": "center",
     "background-color": "#555",
     "text-outline-color": "#555",
     "text-outline-width": "2px",
@@ -18,8 +21,16 @@
     "z-index": "10"
   }
 }, {
+    "selector": "node[idInt = 0]",
+    "style": {
+      "content": "data(name)",
+      "font-size": "20px",
+      "font-weight": "bold"
+    }
+}, {
   "selector": "node:selected",
   "style": {
+    "content": "data(name)",
     "border-width": "6px",
     "border-color": "#AAD8FF",
     "border-opacity": "0.5",

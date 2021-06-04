@@ -3,9 +3,7 @@
     "id": "0", 
     "idInt": 0, 
     "name": "covid", 
-    "score": 108323, 
-    "query": true,
-    "gene": true
+    "score": 108323
   }, 
   "group": "nodes", 
   "removed": false,
@@ -20,9 +18,7 @@
     "id": "1", 
     "idInt": 1, 
     "name": "case", 
-    "score": 20194, 
-    "query": true,
-    "gene": true
+    "score": 20194
   }, 
   "group": "nodes", 
   "removed": false,
@@ -37,9 +33,7 @@
     "id": "2", 
     "idInt": 2, 
     "name": "coronavirus", 
-    "score": 14184, 
-    "query": true,
-    "gene": true
+    "score": 14184
   }, 
   "group": "nodes", 
   "removed": false,
@@ -54,9 +48,7 @@
     "id": "3", 
     "idInt": 3, 
     "name": "death", 
-    "score": 9849, 
-    "query": true,
-    "gene": true
+    "score": 9849
   }, 
   "group": "nodes", 
   "removed": false,
@@ -71,9 +63,7 @@
     "id": "4", 
     "idInt": 4, 
     "name": "people", 
-    "score": 9285, 
-    "query": true,
-    "gene": true
+    "score": 9285
   }, 
   "group": "nodes", 
   "removed": false,
@@ -88,9 +78,7 @@
     "id": "5", 
     "idInt": 5, 
     "name": "pandemic", 
-    "score": 8071, 
-    "query": true,
-    "gene": true
+    "score": 8071
   }, 
   "group": "nodes", 
   "removed": false,
@@ -105,9 +93,7 @@
     "id": "6", 
     "idInt": 6, 
     "name": "mask", 
-    "score": 6488, 
-    "query": true,
-    "gene": true
+    "score": 6488
   }, 
   "group": "nodes", 
   "removed": false,
@@ -122,9 +108,7 @@
     "id": "7", 
     "idInt": 7, 
     "name": "health", 
-    "score": 5227, 
-    "query": true,
-    "gene": true
+    "score": 5227
   }, 
   "group": "nodes", 
   "removed": false,
@@ -139,9 +123,7 @@
     "id": "8", 
     "idInt": 8, 
     "name": "need", 
-    "score": 4963, 
-    "query": true,
-    "gene": true
+    "score": 4963
   }, 
   "group": "nodes", 
   "removed": false,
@@ -156,9 +138,7 @@
     "id": "9", 
     "idInt": 9, 
     "name": "positive", 
-    "score": 4875, 
-    "query": true,
-    "gene": true
+    "score": 4875
   }, 
   "group": "nodes", 
   "removed": false,
@@ -173,9 +153,7 @@
     "id": "10", 
     "idInt": 10, 
     "name": "today", 
-    "score": 4718, 
-    "query": true,
-    "gene": true
+    "score": 4718
   }, 
   "group": "nodes", 
   "removed": false,
@@ -190,9 +168,7 @@
     "id": "11", 
     "idInt": 11, 
     "name": "time", 
-    "score": 4700, 
-    "query": true,
-    "gene": true
+    "score": 4700
   }, 
   "group": "nodes", 
   "removed": false,
@@ -207,9 +183,7 @@
     "id": "12", 
     "idInt": 12, 
     "name": "total", 
-    "score": 4455, 
-    "query": true,
-    "gene": true
+    "score": 4455
   }, 
   "group": "nodes", 
   "removed": false,
@@ -224,9 +198,7 @@
     "id": "13", 
     "idInt": 13, 
     "name": "test", 
-    "score": 4401, 
-    "query": true,
-    "gene": true
+    "score": 4401
   }, 
   "group": "nodes", 
   "removed": false,
@@ -241,9 +213,7 @@
     "id": "14", 
     "idInt": 14, 
     "name": "india", 
-    "score": 4358, 
-    "query": true,
-    "gene": true
+    "score": 4358
   }, 
   "group": "nodes", 
   "removed": false,
@@ -258,9 +228,7 @@
     "id": "15", 
     "idInt": 15, 
     "name": "like", 
-    "score": 4147, 
-    "query": true,
-    "gene": true
+    "score": 4147
   }, 
   "group": "nodes", 
   "removed": false,
@@ -275,9 +243,7 @@
     "id": "16", 
     "idInt": 16, 
     "name": "help", 
-    "score": 4110, 
-    "query": true,
-    "gene": true
+    "score": 4110
   }, 
   "group": "nodes", 
   "removed": false,
@@ -292,9 +258,7 @@
     "id": "17", 
     "idInt": 17, 
     "name": "vaccine", 
-    "score": 3933, 
-    "query": true,
-    "gene": true
+    "score": 3933
   }, 
   "group": "nodes", 
   "removed": false,
@@ -309,9 +273,7 @@
     "id": "18", 
     "idInt": 18, 
     "name": "trump", 
-    "score": 3785, 
-    "query": true,
-    "gene": true
+    "score": 3785
   }, 
   "group": "nodes", 
   "removed": false,
@@ -326,9 +288,7 @@
     "id": "19", 
     "idInt": 19, 
     "name": "school", 
-    "score": 3768, 
-    "query": true,
-    "gene": true
+    "score": 3768
   }, 
   "group": "nodes", 
   "removed": false,
@@ -343,9 +303,7 @@
     "id": "20", 
     "idInt": 20, 
     "name": "state", 
-    "score": 3725, 
-    "query": true,
-    "gene": true
+    "score": 3725
   }, 
   "group": "nodes", 
   "removed": false,
@@ -360,9 +318,7 @@
     "id": "21", 
     "idInt": 21, 
     "name": "number", 
-    "score": 3716, 
-    "query": true,
-    "gene": true
+    "score": 3716
   }, 
   "group": "nodes", 
   "removed": false,
@@ -377,9 +333,7 @@
     "id": "22", 
     "idInt": 22, 
     "name": "last", 
-    "score": 3576, 
-    "query": true,
-    "gene": true
+    "score": 3576
   }, 
   "group": "nodes", 
   "removed": false,
@@ -394,9 +348,7 @@
     "id": "23", 
     "idInt": 23, 
     "name": "realdonaldtrump", 
-    "score": 3560, 
-    "query": true,
-    "gene": true
+    "score": 3560
   }, 
   "group": "nodes", 
   "removed": false,
@@ -411,9 +363,7 @@
     "id": "24", 
     "idInt": 24, 
     "name": "world", 
-    "score": 3446, 
-    "query": true,
-    "gene": true
+    "score": 3446
   }, 
   "group": "nodes", 
   "removed": false,
@@ -428,9 +378,7 @@
     "id": "25", 
     "idInt": 25, 
     "name": "country", 
-    "score": 3376, 
-    "query": true,
-    "gene": true
+    "score": 3376
   }, 
   "group": "nodes", 
   "removed": false,
@@ -445,9 +393,7 @@
     "id": "26", 
     "idInt": 26, 
     "name": "update", 
-    "score": 3361, 
-    "query": true,
-    "gene": true
+    "score": 3361
   }, 
   "group": "nodes", 
   "removed": false,
@@ -462,9 +408,7 @@
     "id": "27", 
     "idInt": 27, 
     "name": "news", 
-    "score": 3358, 
-    "query": true,
-    "gene": true
+    "score": 3358
   }, 
   "group": "nodes", 
   "removed": false,
@@ -479,9 +423,7 @@
     "id": "28", 
     "idInt": 28, 
     "name": "many", 
-    "score": 3261, 
-    "query": true,
-    "gene": true
+    "score": 3261
   }, 
   "group": "nodes", 
   "removed": false,
@@ -496,9 +438,7 @@
     "id": "29", 
     "idInt": 29, 
     "name": "know", 
-    "score": 3255, 
-    "query": true,
-    "gene": true
+    "score": 3255
   }, 
   "group": "nodes", 
   "removed": false,
@@ -513,9 +453,7 @@
     "id": "30", 
     "idInt": 30, 
     "name": "report", 
-    "score": 3226, 
-    "query": true,
-    "gene": true
+    "score": 3226
   }, 
   "group": "nodes", 
   "removed": false,
@@ -530,9 +468,7 @@
     "id": "31", 
     "idInt": 31, 
     "name": "august", 
-    "score": 2961, 
-    "query": true,
-    "gene": true
+    "score": 2961
   }, 
   "group": "nodes", 
   "removed": false,
@@ -547,9 +483,7 @@
     "id": "32", 
     "idInt": 32, 
     "name": "first", 
-    "score": 2953, 
-    "query": true,
-    "gene": true
+    "score": 2953
   }, 
   "group": "nodes", 
   "removed": false,
@@ -564,9 +498,7 @@
     "id": "33", 
     "idInt": 33, 
     "name": "reported", 
-    "score": 2910, 
-    "query": true,
-    "gene": true
+    "score": 2910
   }, 
   "group": "nodes", 
   "removed": false,
@@ -581,9 +513,7 @@
     "id": "34", 
     "idInt": 34, 
     "name": "spread", 
-    "score": 2870, 
-    "query": true,
-    "gene": true
+    "score": 2870
   }, 
   "group": "nodes", 
   "removed": false,
@@ -598,9 +528,7 @@
     "id": "35", 
     "idInt": 35, 
     "name": "virus", 
-    "score": 2821, 
-    "query": true,
-    "gene": true
+    "score": 2821
   }, 
   "group": "nodes", 
   "removed": false,
@@ -615,9 +543,7 @@
     "id": "36", 
     "idInt": 36, 
     "name": "lockdown", 
-    "score": 2771, 
-    "query": true,
-    "gene": true
+    "score": 2771
   }, 
   "group": "nodes", 
   "removed": false,
@@ -632,9 +558,7 @@
     "id": "37", 
     "idInt": 37, 
     "name": "take", 
-    "score": 2769, 
-    "query": true,
-    "gene": true
+    "score": 2769
   }, 
   "group": "nodes", 
   "removed": false,
@@ -649,9 +573,7 @@
     "id": "38", 
     "idInt": 38, 
     "name": "even", 
-    "score": 2745, 
-    "query": true,
-    "gene": true
+    "score": 2745
   }, 
   "group": "nodes", 
   "removed": false,
@@ -666,9 +588,7 @@
     "id": "39", 
     "idInt": 39, 
     "name": "still", 
-    "score": 2704, 
-    "query": true,
-    "gene": true
+    "score": 2704
   }, 
   "group": "nodes", 
   "removed": false,
@@ -683,9 +603,7 @@
     "id": "40", 
     "idInt": 40, 
     "name": "year", 
-    "score": 2703, 
-    "query": true,
-    "gene": true
+    "score": 2703
   }, 
   "group": "nodes", 
   "removed": false,
@@ -700,9 +618,7 @@
     "id": "41", 
     "idInt": 41, 
     "name": "home", 
-    "score": 2695, 
-    "query": true,
-    "gene": true
+    "score": 2695
   }, 
   "group": "nodes", 
   "removed": false,
@@ -717,9 +633,7 @@
     "id": "42", 
     "idInt": 42, 
     "name": "life", 
-    "score": 2679, 
-    "query": true,
-    "gene": true
+    "score": 2679
   }, 
   "group": "nodes", 
   "removed": false,
@@ -734,9 +648,7 @@
     "id": "43", 
     "idInt": 43, 
     "name": "work", 
-    "score": 2648, 
-    "query": true,
-    "gene": true
+    "score": 2648
   }, 
   "group": "nodes", 
   "removed": false,
@@ -751,9 +663,7 @@
     "id": "44", 
     "idInt": 44, 
     "name": "week", 
-    "score": 2634, 
-    "query": true,
-    "gene": true
+    "score": 2634
   }, 
   "group": "nodes", 
   "removed": false,
@@ -768,9 +678,7 @@
     "id": "45", 
     "idInt": 45, 
     "name": "government", 
-    "score": 2620, 
-    "query": true,
-    "gene": true
+    "score": 2620
   }, 
   "group": "nodes", 
   "removed": false,
@@ -785,9 +693,7 @@
     "id": "46", 
     "idInt": 46, 
     "name": "make", 
-    "score": 2608, 
-    "query": true,
-    "gene": true
+    "score": 2608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -802,9 +708,7 @@
     "id": "47", 
     "idInt": 47, 
     "name": "back", 
-    "score": 2596, 
-    "query": true,
-    "gene": true
+    "score": 2596
   }, 
   "group": "nodes", 
   "removed": false,
@@ -819,9 +723,7 @@
     "id": "48", 
     "idInt": 48, 
     "name": "tested", 
-    "score": 2559, 
-    "query": true,
-    "gene": true
+    "score": 2559
   }, 
   "group": "nodes", 
   "removed": false,
@@ -836,9 +738,7 @@
     "id": "49", 
     "idInt": 49, 
     "name": "testing", 
-    "score": 2515, 
-    "query": true,
-    "gene": true
+    "score": 2515
   }, 
   "group": "nodes", 
   "removed": false,
@@ -853,9 +753,7 @@
     "id": "50", 
     "idInt": 50, 
     "name": "patient", 
-    "score": 2482, 
-    "query": true,
-    "gene": true
+    "score": 2482
   }, 
   "group": "nodes", 
   "removed": false,
@@ -870,9 +768,7 @@
     "id": "51", 
     "idInt": 51, 
     "name": "good", 
-    "score": 2481, 
-    "query": true,
-    "gene": true
+    "score": 2481
   }, 
   "group": "nodes", 
   "removed": false,
@@ -887,9 +783,7 @@
     "id": "52", 
     "idInt": 52, 
     "name": "business", 
-    "score": 2454, 
-    "query": true,
-    "gene": true
+    "score": 2454
   }, 
   "group": "nodes", 
   "removed": false,
@@ -904,9 +798,7 @@
     "id": "53", 
     "idInt": 53, 
     "name": "american", 
-    "score": 2414, 
-    "query": true,
-    "gene": true
+    "score": 2414
   }, 
   "group": "nodes", 
   "removed": false,
@@ -921,9 +813,7 @@
     "id": "54", 
     "idInt": 54, 
     "name": "going", 
-    "score": 2366, 
-    "query": true,
-    "gene": true
+    "score": 2366
   }, 
   "group": "nodes", 
   "removed": false,
@@ -938,9 +828,7 @@
     "id": "55", 
     "idInt": 55, 
     "name": "dont", 
-    "score": 2356, 
-    "query": true,
-    "gene": true
+    "score": 2356
   }, 
   "group": "nodes", 
   "removed": false,
@@ -955,9 +843,7 @@
     "id": "56", 
     "idInt": 56, 
     "name": "would", 
-    "score": 2353, 
-    "query": true,
-    "gene": true
+    "score": 2353
   }, 
   "group": "nodes", 
   "removed": false,
@@ -972,9 +858,7 @@
     "id": "57", 
     "idInt": 57, 
     "name": "want", 
-    "score": 2329, 
-    "query": true,
-    "gene": true
+    "score": 2329
   }, 
   "group": "nodes", 
   "removed": false,
@@ -989,9 +873,7 @@
     "id": "58", 
     "idInt": 58, 
     "name": "daily", 
-    "score": 2321, 
-    "query": true,
-    "gene": true
+    "score": 2321
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1006,9 +888,7 @@
     "id": "59", 
     "idInt": 59, 
     "name": "global", 
-    "score": 2316, 
-    "query": true,
-    "gene": true
+    "score": 2316
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1023,9 +903,7 @@
     "id": "60", 
     "idInt": 60, 
     "name": "please", 
-    "score": 2308, 
-    "query": true,
-    "gene": true
+    "score": 2308
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1040,9 +918,7 @@
     "id": "61", 
     "idInt": 61, 
     "name": "hospital", 
-    "score": 2275, 
-    "query": true,
-    "gene": true
+    "score": 2275
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1057,9 +933,7 @@
     "id": "62", 
     "idInt": 62, 
     "name": "million", 
-    "score": 2252, 
-    "query": true,
-    "gene": true
+    "score": 2252
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1074,9 +948,7 @@
     "id": "63", 
     "idInt": 63, 
     "name": "risk", 
-    "score": 2216, 
-    "query": true,
-    "gene": true
+    "score": 2216
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1091,9 +963,7 @@
     "id": "64", 
     "idInt": 64, 
     "name": "child", 
-    "score": 2149, 
-    "query": true,
-    "gene": true
+    "score": 2149
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1108,9 +978,7 @@
     "id": "65", 
     "idInt": 65, 
     "name": "care", 
-    "score": 2143, 
-    "query": true,
-    "gene": true
+    "score": 2143
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1125,9 +993,7 @@
     "id": "66", 
     "idInt": 66, 
     "name": "read", 
-    "score": 2136, 
-    "query": true,
-    "gene": true
+    "score": 2136
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1142,9 +1008,7 @@
     "id": "67", 
     "idInt": 67, 
     "name": "could", 
-    "score": 2136, 
-    "query": true,
-    "gene": true
+    "score": 2136
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1159,9 +1023,7 @@
     "id": "68", 
     "idInt": 68, 
     "name": "confirmed", 
-    "score": 2082, 
-    "query": true,
-    "gene": true
+    "score": 2082
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1176,9 +1038,7 @@
     "id": "69", 
     "idInt": 69, 
     "name": "think", 
-    "score": 2070, 
-    "query": true,
-    "gene": true
+    "score": 2070
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1193,9 +1053,7 @@
     "id": "70", 
     "idInt": 70, 
     "name": "face", 
-    "score": 2057, 
-    "query": true,
-    "gene": true
+    "score": 2057
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1210,9 +1068,7 @@
     "id": "71", 
     "idInt": 71, 
     "name": "safe", 
-    "score": 2028, 
-    "query": true,
-    "gene": true
+    "score": 2028
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1227,9 +1083,7 @@
     "id": "72", 
     "idInt": 72, 
     "name": "public", 
-    "score": 2027, 
-    "query": true,
-    "gene": true
+    "score": 2027
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1244,9 +1098,7 @@
     "id": "73", 
     "idInt": 73, 
     "name": "recovery", 
-    "score": 2024, 
-    "query": true,
-    "gene": true
+    "score": 2024
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1261,9 +1113,7 @@
     "id": "74", 
     "idInt": 74, 
     "name": "since", 
-    "score": 2006, 
-    "query": true,
-    "gene": true
+    "score": 2006
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1278,9 +1128,7 @@
     "id": "75", 
     "idInt": 75, 
     "name": "keep", 
-    "score": 2002, 
-    "query": true,
-    "gene": true
+    "score": 2002
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1295,9 +1143,7 @@
     "id": "76", 
     "idInt": 76, 
     "name": "month", 
-    "score": 1985, 
-    "query": true,
-    "gene": true
+    "score": 1985
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1312,9 +1158,7 @@
     "id": "77", 
     "idInt": 77, 
     "name": "family", 
-    "score": 1974, 
-    "query": true,
-    "gene": true
+    "score": 1974
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1329,9 +1173,7 @@
     "id": "78", 
     "idInt": 78, 
     "name": "latest", 
-    "score": 1964, 
-    "query": true,
-    "gene": true
+    "score": 1964
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1346,9 +1188,7 @@
     "id": "79", 
     "idInt": 79, 
     "name": "corona", 
-    "score": 1961, 
-    "query": true,
-    "gene": true
+    "score": 1961
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1363,9 +1203,7 @@
     "id": "80", 
     "idInt": 80, 
     "name": "look", 
-    "score": 1959, 
-    "query": true,
-    "gene": true
+    "score": 1959
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1380,9 +1218,7 @@
     "id": "81", 
     "idInt": 81, 
     "name": "rate", 
-    "score": 1953, 
-    "query": true,
-    "gene": true
+    "score": 1953
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1397,9 +1233,7 @@
     "id": "82", 
     "idInt": 82, 
     "name": "right", 
-    "score": 1942, 
-    "query": true,
-    "gene": true
+    "score": 1942
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1414,9 +1248,7 @@
     "id": "83", 
     "idInt": 83, 
     "name": "data", 
-    "score": 1940, 
-    "query": true,
-    "gene": true
+    "score": 1940
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1431,9 +1263,7 @@
     "id": "84", 
     "idInt": 84, 
     "name": "hour", 
-    "score": 1896, 
-    "query": true,
-    "gene": true
+    "score": 1896
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1448,9 +1278,7 @@
     "id": "85", 
     "idInt": 85, 
     "name": "wear", 
-    "score": 1895, 
-    "query": true,
-    "gene": true
+    "score": 1895
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1465,9 +1293,7 @@
     "id": "86", 
     "idInt": 86, 
     "name": "july", 
-    "score": 1852, 
-    "query": true,
-    "gene": true
+    "score": 1852
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1482,9 +1308,7 @@
     "id": "87", 
     "idInt": 87, 
     "name": "support", 
-    "score": 1849, 
-    "query": true,
-    "gene": true
+    "score": 1849
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1499,9 +1323,7 @@
     "id": "88", 
     "idInt": 88, 
     "name": "community", 
-    "score": 1813, 
-    "query": true,
-    "gene": true
+    "score": 1813
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1516,9 +1338,7 @@
     "id": "89", 
     "idInt": 89, 
     "name": "student", 
-    "score": 1792, 
-    "query": true,
-    "gene": true
+    "score": 1792
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1533,9 +1353,7 @@
     "id": "90", 
     "idInt": 90, 
     "name": "thing", 
-    "score": 1777, 
-    "query": true,
-    "gene": true
+    "score": 1777
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1550,9 +1368,7 @@
     "id": "91", 
     "idInt": 91, 
     "name": "every", 
-    "score": 1769, 
-    "query": true,
-    "gene": true
+    "score": 1769
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1567,9 +1383,7 @@
     "id": "92", 
     "idInt": 92, 
     "name": "social", 
-    "score": 1739, 
-    "query": true,
-    "gene": true
+    "score": 1739
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1584,9 +1398,7 @@
     "id": "93", 
     "idInt": 93, 
     "name": "died", 
-    "score": 1715, 
-    "query": true,
-    "gene": true
+    "score": 1715
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1601,9 +1413,7 @@
     "id": "94", 
     "idInt": 94, 
     "name": "well", 
-    "score": 1703, 
-    "query": true,
-    "gene": true
+    "score": 1703
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1618,9 +1428,7 @@
     "id": "95", 
     "idInt": 95, 
     "name": "said", 
-    "score": 1689, 
-    "query": true,
-    "gene": true
+    "score": 1689
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1635,9 +1443,7 @@
     "id": "96", 
     "idInt": 96, 
     "name": "great", 
-    "score": 1685, 
-    "query": true,
-    "gene": true
+    "score": 1685
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1652,9 +1458,7 @@
     "id": "97", 
     "idInt": 97, 
     "name": "impact", 
-    "score": 1664, 
-    "query": true,
-    "gene": true
+    "score": 1664
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1669,9 +1473,7 @@
     "id": "98", 
     "idInt": 98, 
     "name": "response", 
-    "score": 1646, 
-    "query": true,
-    "gene": true
+    "score": 1646
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1686,9 +1488,7 @@
     "id": "99", 
     "idInt": 99, 
     "name": "active", 
-    "score": 1639, 
-    "query": true,
-    "gene": true
+    "score": 1639
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1703,9 +1503,7 @@
     "id": "100", 
     "idInt": 100, 
     "name": "crisis", 
-    "score": 1625, 
-    "query": true,
-    "gene": true
+    "score": 1625
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1720,9 +1518,7 @@
     "id": "101", 
     "idInt": 101, 
     "name": "also", 
-    "score": 1614, 
-    "query": true,
-    "gene": true
+    "score": 1614
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1737,9 +1533,7 @@
     "id": "102", 
     "idInt": 102, 
     "name": "stay", 
-    "score": 1611, 
-    "query": true,
-    "gene": true
+    "score": 1611
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1754,9 +1548,7 @@
     "id": "103", 
     "idInt": 103, 
     "name": "infection", 
-    "score": 1608, 
-    "query": true,
-    "gene": true
+    "score": 1608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1771,9 +1563,7 @@
     "id": "104", 
     "idInt": 104, 
     "name": "must", 
-    "score": 1596, 
-    "query": true,
-    "gene": true
+    "score": 1596
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1788,9 +1578,7 @@
     "id": "105", 
     "idInt": 105, 
     "name": "stop", 
-    "score": 1567, 
-    "query": true,
-    "gene": true
+    "score": 1567
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1805,9 +1593,7 @@
     "id": "106", 
     "idInt": 106, 
     "name": "show", 
-    "score": 1561, 
-    "query": true,
-    "gene": true
+    "score": 1561
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1822,9 +1608,7 @@
     "id": "107", 
     "idInt": 107, 
     "name": "live", 
-    "score": 1535, 
-    "query": true,
-    "gene": true
+    "score": 1535
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1839,9 +1623,7 @@
     "id": "108", 
     "idInt": 108, 
     "name": "much", 
-    "score": 1521, 
-    "query": true,
-    "gene": true
+    "score": 1521
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1856,9 +1638,7 @@
     "id": "109", 
     "idInt": 109, 
     "name": "around", 
-    "score": 1518, 
-    "query": true,
-    "gene": true
+    "score": 1518
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1873,9 +1653,7 @@
     "id": "110", 
     "idInt": 110, 
     "name": "come", 
-    "score": 1513, 
-    "query": true,
-    "gene": true
+    "score": 1513
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1890,9 +1668,7 @@
     "id": "111", 
     "idInt": 111, 
     "name": "another", 
-    "score": 1509, 
-    "query": true,
-    "gene": true
+    "score": 1509
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1907,9 +1683,7 @@
     "id": "112", 
     "idInt": 112, 
     "name": "recovered", 
-    "score": 1489, 
-    "query": true,
-    "gene": true
+    "score": 1489
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1924,9 +1698,7 @@
     "id": "113", 
     "idInt": 113, 
     "name": "worker", 
-    "score": 1463, 
-    "query": true,
-    "gene": true
+    "score": 1463
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1941,9 +1713,7 @@
     "id": "114", 
     "idInt": 114, 
     "name": "really", 
-    "score": 1434, 
-    "query": true,
-    "gene": true
+    "score": 1434
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1958,9 +1728,7 @@
     "id": "115", 
     "idInt": 115, 
     "name": "part", 
-    "score": 1429, 
-    "query": true,
-    "gene": true
+    "score": 1429
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1975,9 +1743,7 @@
     "id": "116", 
     "idInt": 116, 
     "name": "fight", 
-    "score": 1421, 
-    "query": true,
-    "gene": true
+    "score": 1421
   }, 
   "group": "nodes", 
   "removed": false,
@@ -1992,9 +1758,7 @@
     "id": "117", 
     "idInt": 117, 
     "name": "plan", 
-    "score": 1413, 
-    "query": true,
-    "gene": true
+    "score": 1413
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2009,9 +1773,7 @@
     "id": "118", 
     "idInt": 118, 
     "name": "wearing", 
-    "score": 1412, 
-    "query": true,
-    "gene": true
+    "score": 1412
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2026,9 +1788,7 @@
     "id": "119", 
     "idInt": 119, 
     "name": "everyone", 
-    "score": 1367, 
-    "query": true,
-    "gene": true
+    "score": 1367
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2043,9 +1803,7 @@
     "id": "120", 
     "idInt": 120, 
     "name": "symptom", 
-    "score": 1367, 
-    "query": true,
-    "gene": true
+    "score": 1367
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2060,9 +1818,7 @@
     "id": "121", 
     "idInt": 121, 
     "name": "watch", 
-    "score": 1351, 
-    "query": true,
-    "gene": true
+    "score": 1351
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2077,9 +1833,7 @@
     "id": "122", 
     "idInt": 122, 
     "name": "china", 
-    "score": 1339, 
-    "query": true,
-    "gene": true
+    "score": 1339
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2094,9 +1848,7 @@
     "id": "123", 
     "idInt": 123, 
     "name": "free", 
-    "score": 1334, 
-    "query": true,
-    "gene": true
+    "score": 1334
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2111,9 +1863,7 @@
     "id": "124", 
     "idInt": 124, 
     "name": "tally", 
-    "score": 1325, 
-    "query": true,
-    "gene": true
+    "score": 1325
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2128,9 +1878,7 @@
     "id": "125", 
     "idInt": 125, 
     "name": "check", 
-    "score": 1320, 
-    "query": true,
-    "gene": true
+    "score": 1320
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2145,9 +1893,7 @@
     "id": "126", 
     "idInt": 126, 
     "name": "rise", 
-    "score": 1318, 
-    "query": true,
-    "gene": true
+    "score": 1318
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2162,9 +1908,7 @@
     "id": "127", 
     "idInt": 127, 
     "name": "minister", 
-    "score": 1311, 
-    "query": true,
-    "gene": true
+    "score": 1311
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2179,9 +1923,7 @@
     "id": "128", 
     "idInt": 128, 
     "name": "find", 
-    "score": 1300, 
-    "query": true,
-    "gene": true
+    "score": 1300
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2196,9 +1938,7 @@
     "id": "129", 
     "idInt": 129, 
     "name": "important", 
-    "score": 1277, 
-    "query": true,
-    "gene": true
+    "score": 1277
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2213,9 +1953,7 @@
     "id": "130", 
     "idInt": 130, 
     "name": "president", 
-    "score": 1269, 
-    "query": true,
-    "gene": true
+    "score": 1269
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2230,9 +1968,7 @@
     "id": "131", 
     "idInt": 131, 
     "name": "video", 
-    "score": 1265, 
-    "query": true,
-    "gene": true
+    "score": 1265
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2247,9 +1983,7 @@
     "id": "132", 
     "idInt": 132, 
     "name": "study", 
-    "score": 1257, 
-    "query": true,
-    "gene": true
+    "score": 1257
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2264,9 +1998,7 @@
     "id": "133", 
     "idInt": 133, 
     "name": "taking", 
-    "score": 1252, 
-    "query": true,
-    "gene": true
+    "score": 1252
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2281,9 +2013,7 @@
     "id": "134", 
     "idInt": 134, 
     "name": "change", 
-    "score": 1247, 
-    "query": true,
-    "gene": true
+    "score": 1247
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2298,9 +2028,7 @@
     "id": "135", 
     "idInt": 135, 
     "name": "spike", 
-    "score": 1239, 
-    "query": true,
-    "gene": true
+    "score": 1239
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2315,9 +2043,7 @@
     "id": "136", 
     "idInt": 136, 
     "name": "working", 
-    "score": 1238, 
-    "query": true,
-    "gene": true
+    "score": 1238
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2332,9 +2058,7 @@
     "id": "137", 
     "idInt": 137, 
     "name": "getting", 
-    "score": 1234, 
-    "query": true,
-    "gene": true
+    "score": 1234
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2349,9 +2073,7 @@
     "id": "138", 
     "idInt": 138, 
     "name": "best", 
-    "score": 1228, 
-    "query": true,
-    "gene": true
+    "score": 1228
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2366,9 +2088,7 @@
     "id": "139", 
     "idInt": 139, 
     "name": "record", 
-    "score": 1216, 
-    "query": true,
-    "gene": true
+    "score": 1216
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2383,9 +2103,7 @@
     "id": "140", 
     "idInt": 140, 
     "name": "join", 
-    "score": 1215, 
-    "query": true,
-    "gene": true
+    "score": 1215
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2400,9 +2118,7 @@
     "id": "141", 
     "idInt": 141, 
     "name": "person", 
-    "score": 1210, 
-    "query": true,
-    "gene": true
+    "score": 1210
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2417,9 +2133,7 @@
     "id": "142", 
     "idInt": 142, 
     "name": "result", 
-    "score": 1207, 
-    "query": true,
-    "gene": true
+    "score": 1207
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2434,9 +2148,7 @@
     "id": "143", 
     "idInt": 143, 
     "name": "medical", 
-    "score": 1203, 
-    "query": true,
-    "gene": true
+    "score": 1203
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2451,9 +2163,7 @@
     "id": "144", 
     "idInt": 144, 
     "name": "made", 
-    "score": 1197, 
-    "query": true,
-    "gene": true
+    "score": 1197
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2468,9 +2178,7 @@
     "id": "145", 
     "idInt": 145, 
     "name": "give", 
-    "score": 1197, 
-    "query": true,
-    "gene": true
+    "score": 1197
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2485,9 +2193,7 @@
     "id": "146", 
     "idInt": 146, 
     "name": "call", 
-    "score": 1196, 
-    "query": true,
-    "gene": true
+    "score": 1196
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2502,9 +2208,7 @@
     "id": "147", 
     "idInt": 147, 
     "name": "economy", 
-    "score": 1191, 
-    "query": true,
-    "gene": true
+    "score": 1191
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2519,9 +2223,7 @@
     "id": "148", 
     "idInt": 148, 
     "name": "next", 
-    "score": 1188, 
-    "query": true,
-    "gene": true
+    "score": 1188
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2536,9 +2238,7 @@
     "id": "149", 
     "idInt": 149, 
     "name": "share", 
-    "score": 1183, 
-    "query": true,
-    "gene": true
+    "score": 1183
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2553,9 +2253,7 @@
     "id": "150", 
     "idInt": 150, 
     "name": "online", 
-    "score": 1176, 
-    "query": true,
-    "gene": true
+    "score": 1176
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2570,9 +2268,7 @@
     "id": "151", 
     "idInt": 151, 
     "name": "doctor", 
-    "score": 1175, 
-    "query": true,
-    "gene": true
+    "score": 1175
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2587,9 +2283,7 @@
     "id": "152", 
     "idInt": 152, 
     "name": "quarantine", 
-    "score": 1172, 
-    "query": true,
-    "gene": true
+    "score": 1172
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2604,9 +2298,7 @@
     "id": "153", 
     "idInt": 153, 
     "name": "never", 
-    "score": 1161, 
-    "query": true,
-    "gene": true
+    "score": 1161
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2621,9 +2313,7 @@
     "id": "154", 
     "idInt": 154, 
     "name": "service", 
-    "score": 1159, 
-    "query": true,
-    "gene": true
+    "score": 1159
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2638,9 +2328,7 @@
     "id": "155", 
     "idInt": 155, 
     "name": "woman", 
-    "score": 1158, 
-    "query": true,
-    "gene": true
+    "score": 1158
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2655,9 +2343,7 @@
     "id": "156", 
     "idInt": 156, 
     "name": "official", 
-    "score": 1158, 
-    "query": true,
-    "gene": true
+    "score": 1158
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2672,9 +2358,7 @@
     "id": "157", 
     "idInt": 157, 
     "name": "county", 
-    "score": 1157, 
-    "query": true,
-    "gene": true
+    "score": 1157
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2689,9 +2373,7 @@
     "id": "158", 
     "idInt": 158, 
     "name": "start", 
-    "score": 1149, 
-    "query": true,
-    "gene": true
+    "score": 1149
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2706,9 +2388,7 @@
     "id": "159", 
     "idInt": 159, 
     "name": "protect", 
-    "score": 1143, 
-    "query": true,
-    "gene": true
+    "score": 1143
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2723,9 +2403,7 @@
     "id": "160", 
     "idInt": 160, 
     "name": "open", 
-    "score": 1139, 
-    "query": true,
-    "gene": true
+    "score": 1139
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2740,9 +2418,7 @@
     "id": "161", 
     "idInt": 161, 
     "name": "better", 
-    "score": 1136, 
-    "query": true,
-    "gene": true
+    "score": 1136
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2757,9 +2433,7 @@
     "id": "162", 
     "idInt": 162, 
     "name": "city", 
-    "score": 1132, 
-    "query": true,
-    "gene": true
+    "score": 1132
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2774,9 +2448,7 @@
     "id": "163", 
     "idInt": 163, 
     "name": "medium", 
-    "score": 1114, 
-    "query": true,
-    "gene": true
+    "score": 1114
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2791,9 +2463,7 @@
     "id": "164", 
     "idInt": 164, 
     "name": "team", 
-    "score": 1108, 
-    "query": true,
-    "gene": true
+    "score": 1108
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2808,9 +2478,7 @@
     "id": "165", 
     "idInt": 165, 
     "name": "hand", 
-    "score": 1107, 
-    "query": true,
-    "gene": true
+    "score": 1107
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2825,9 +2493,7 @@
     "id": "166", 
     "idInt": 166, 
     "name": "high", 
-    "score": 1106, 
-    "query": true,
-    "gene": true
+    "score": 1106
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2842,9 +2508,7 @@
     "id": "167", 
     "idInt": 167, 
     "name": "sign", 
-    "score": 1098, 
-    "query": true,
-    "gene": true
+    "score": 1098
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2859,9 +2523,7 @@
     "id": "168", 
     "idInt": 168, 
     "name": "across", 
-    "score": 1093, 
-    "query": true,
-    "gene": true
+    "score": 1093
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2876,9 +2538,7 @@
     "id": "169", 
     "idInt": 169, 
     "name": "outbreak", 
-    "score": 1092, 
-    "query": true,
-    "gene": true
+    "score": 1092
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2893,9 +2553,7 @@
     "id": "170", 
     "idInt": 170, 
     "name": "situation", 
-    "score": 1082, 
-    "query": true,
-    "gene": true
+    "score": 1082
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2910,9 +2568,7 @@
     "id": "171", 
     "idInt": 171, 
     "name": "without", 
-    "score": 1080, 
-    "query": true,
-    "gene": true
+    "score": 1080
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2927,9 +2583,7 @@
     "id": "172", 
     "idInt": 172, 
     "name": "local", 
-    "score": 1075, 
-    "query": true,
-    "gene": true
+    "score": 1075
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2944,9 +2598,7 @@
     "id": "173", 
     "idInt": 173, 
     "name": "hope", 
-    "score": 1071, 
-    "query": true,
-    "gene": true
+    "score": 1071
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2961,9 +2613,7 @@
     "id": "174", 
     "idInt": 174, 
     "name": "thanks", 
-    "score": 1060, 
-    "query": true,
-    "gene": true
+    "score": 1060
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2978,9 +2628,7 @@
     "id": "175", 
     "idInt": 175, 
     "name": "thank", 
-    "score": 1055, 
-    "query": true,
-    "gene": true
+    "score": 1055
   }, 
   "group": "nodes", 
   "removed": false,
@@ -2995,9 +2643,7 @@
     "id": "176", 
     "idInt": 176, 
     "name": "cant", 
-    "score": 1050, 
-    "query": true,
-    "gene": true
+    "score": 1050
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3012,9 +2658,7 @@
     "id": "177", 
     "idInt": 177, 
     "name": "love", 
-    "score": 1040, 
-    "query": true,
-    "gene": true
+    "score": 1040
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3029,9 +2673,7 @@
     "id": "178", 
     "idInt": 178, 
     "name": "tell", 
-    "score": 1038, 
-    "query": true,
-    "gene": true
+    "score": 1038
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3046,9 +2688,7 @@
     "id": "179", 
     "idInt": 179, 
     "name": "america", 
-    "score": 1036, 
-    "query": true,
-    "gene": true
+    "score": 1036
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3063,9 +2703,7 @@
     "id": "180", 
     "idInt": 180, 
     "name": "healthcare", 
-    "score": 1031, 
-    "query": true,
-    "gene": true
+    "score": 1031
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3080,9 +2718,7 @@
     "id": "181", 
     "idInt": 181, 
     "name": "including", 
-    "score": 1023, 
-    "query": true,
-    "gene": true
+    "score": 1023
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3097,9 +2733,7 @@
     "id": "182", 
     "idInt": 182, 
     "name": "national", 
-    "score": 1022, 
-    "query": true,
-    "gene": true
+    "score": 1022
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3114,9 +2748,7 @@
     "id": "183", 
     "idInt": 183, 
     "name": "place", 
-    "score": 1018, 
-    "query": true,
-    "gene": true
+    "score": 1018
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3131,9 +2763,7 @@
     "id": "184", 
     "idInt": 184, 
     "name": "alert", 
-    "score": 1016, 
-    "query": true,
-    "gene": true
+    "score": 1016
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3148,9 +2778,7 @@
     "id": "185", 
     "idInt": 185, 
     "name": "post", 
-    "score": 1013, 
-    "query": true,
-    "gene": true
+    "score": 1013
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3165,9 +2793,7 @@
     "id": "186", 
     "idInt": 186, 
     "name": "amid", 
-    "score": 1002, 
-    "query": true,
-    "gene": true
+    "score": 1002
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3182,9 +2808,7 @@
     "id": "187", 
     "idInt": 187, 
     "name": "leader", 
-    "score": 1001, 
-    "query": true,
-    "gene": true
+    "score": 1001
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3199,9 +2823,7 @@
     "id": "188", 
     "idInt": 188, 
     "name": "long", 
-    "score": 1000, 
-    "query": true,
-    "gene": true
+    "score": 1000
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3216,9 +2838,7 @@
     "id": "189", 
     "idInt": 189, 
     "name": "company", 
-    "score": 997, 
-    "query": true,
-    "gene": true
+    "score": 997
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3233,9 +2853,7 @@
     "id": "190", 
     "idInt": 190, 
     "name": "food", 
-    "score": 997, 
-    "query": true,
-    "gene": true
+    "score": 997
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3250,9 +2868,7 @@
     "id": "191", 
     "idInt": 191, 
     "name": "friend", 
-    "score": 996, 
-    "query": true,
-    "gene": true
+    "score": 996
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3267,9 +2883,7 @@
     "id": "192", 
     "idInt": 192, 
     "name": "expert", 
-    "score": 990, 
-    "query": true,
-    "gene": true
+    "score": 990
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3284,9 +2898,7 @@
     "id": "193", 
     "idInt": 193, 
     "name": "toll", 
-    "score": 989, 
-    "query": true,
-    "gene": true
+    "score": 989
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3301,9 +2913,7 @@
     "id": "194", 
     "idInt": 194, 
     "name": "staff", 
-    "score": 974, 
-    "query": true,
-    "gene": true
+    "score": 974
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3318,9 +2928,7 @@
     "id": "195", 
     "idInt": 195, 
     "name": "russia", 
-    "score": 973, 
-    "query": true,
-    "gene": true
+    "score": 973
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3335,9 +2943,7 @@
     "id": "196", 
     "idInt": 196, 
     "name": "follow", 
-    "score": 972, 
-    "query": true,
-    "gene": true
+    "score": 972
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3352,9 +2958,7 @@
     "id": "197", 
     "idInt": 197, 
     "name": "research", 
-    "score": 969, 
-    "query": true,
-    "gene": true
+    "score": 969
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3369,9 +2973,7 @@
     "id": "198", 
     "idInt": 198, 
     "name": "member", 
-    "score": 967, 
-    "query": true,
-    "gene": true
+    "score": 967
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3386,9 +2988,7 @@
     "id": "199", 
     "idInt": 199, 
     "name": "travel", 
-    "score": 965, 
-    "query": true,
-    "gene": true
+    "score": 965
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3403,9 +3003,7 @@
     "id": "200", 
     "idInt": 200, 
     "name": "system", 
-    "score": 961, 
-    "query": true,
-    "gene": true
+    "score": 961
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3420,9 +3018,7 @@
     "id": "201", 
     "idInt": 201, 
     "name": "article", 
-    "score": 958, 
-    "query": true,
-    "gene": true
+    "score": 958
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3437,9 +3033,7 @@
     "id": "202", 
     "idInt": 202, 
     "name": "challenge", 
-    "score": 958, 
-    "query": true,
-    "gene": true
+    "score": 958
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3454,9 +3048,7 @@
     "id": "203", 
     "idInt": 203, 
     "name": "breaking", 
-    "score": 955, 
-    "query": true,
-    "gene": true
+    "score": 955
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3471,9 +3063,7 @@
     "id": "204", 
     "idInt": 204, 
     "name": "south", 
-    "score": 953, 
-    "query": true,
-    "gene": true
+    "score": 953
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3488,9 +3078,7 @@
     "id": "205", 
     "idInt": 205, 
     "name": "contact", 
-    "score": 950, 
-    "query": true,
-    "gene": true
+    "score": 950
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3505,9 +3093,7 @@
     "id": "206", 
     "idInt": 206, 
     "name": "done", 
-    "score": 948, 
-    "query": true,
-    "gene": true
+    "score": 948
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3522,9 +3108,7 @@
     "id": "207", 
     "idInt": 207, 
     "name": "real", 
-    "score": 947, 
-    "query": true,
-    "gene": true
+    "score": 947
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3539,9 +3123,7 @@
     "id": "208", 
     "idInt": 208, 
     "name": "anyone", 
-    "score": 944, 
-    "query": true,
-    "gene": true
+    "score": 944
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3556,9 +3138,7 @@
     "id": "209", 
     "idInt": 209, 
     "name": "sure", 
-    "score": 941, 
-    "query": true,
-    "gene": true
+    "score": 941
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3573,9 +3153,7 @@
     "id": "210", 
     "idInt": 210, 
     "name": "continue", 
-    "score": 937, 
-    "query": true,
-    "gene": true
+    "score": 937
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3590,9 +3168,7 @@
     "id": "211", 
     "idInt": 211, 
     "name": "safety", 
-    "score": 925, 
-    "query": true,
-    "gene": true
+    "score": 925
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3607,9 +3183,7 @@
     "id": "212", 
     "idInt": 212, 
     "name": "measure", 
-    "score": 909, 
-    "query": true,
-    "gene": true
+    "score": 909
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3624,9 +3198,7 @@
     "id": "213", 
     "idInt": 213, 
     "name": "feel", 
-    "score": 909, 
-    "query": true,
-    "gene": true
+    "score": 909
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3641,9 +3213,7 @@
     "id": "214", 
     "idInt": 214, 
     "name": "mean", 
-    "score": 905, 
-    "query": true,
-    "gene": true
+    "score": 905
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3658,9 +3228,7 @@
     "id": "215", 
     "idInt": 215, 
     "name": "lost", 
-    "score": 905, 
-    "query": true,
-    "gene": true
+    "score": 905
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3675,9 +3243,7 @@
     "id": "216", 
     "idInt": 216, 
     "name": "yesterday", 
-    "score": 901, 
-    "query": true,
-    "gene": true
+    "score": 901
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3692,9 +3258,7 @@
     "id": "217", 
     "idInt": 217, 
     "name": "full", 
-    "score": 900, 
-    "query": true,
-    "gene": true
+    "score": 900
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3709,9 +3273,7 @@
     "id": "218", 
     "idInt": 218, 
     "name": "economic", 
-    "score": 899, 
-    "query": true,
-    "gene": true
+    "score": 899
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3726,9 +3288,7 @@
     "id": "219", 
     "idInt": 219, 
     "name": "learn", 
-    "score": 896, 
-    "query": true,
-    "gene": true
+    "score": 896
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3743,9 +3303,7 @@
     "id": "220", 
     "idInt": 220, 
     "name": "morning", 
-    "score": 883, 
-    "query": true,
-    "gene": true
+    "score": 883
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3760,9 +3318,7 @@
     "id": "221", 
     "idInt": 221, 
     "name": "looking", 
-    "score": 880, 
-    "query": true,
-    "gene": true
+    "score": 880
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3777,9 +3333,7 @@
     "id": "222", 
     "idInt": 222, 
     "name": "away", 
-    "score": 879, 
-    "query": true,
-    "gene": true
+    "score": 879
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3794,9 +3348,7 @@
     "id": "223", 
     "idInt": 223, 
     "name": "disease", 
-    "score": 879, 
-    "query": true,
-    "gene": true
+    "score": 879
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3811,9 +3363,7 @@
     "id": "224", 
     "idInt": 224, 
     "name": "thought", 
-    "score": 878, 
-    "query": true,
-    "gene": true
+    "score": 878
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3828,9 +3378,7 @@
     "id": "225", 
     "idInt": 225, 
     "name": "ever", 
-    "score": 874, 
-    "query": true,
-    "gene": true
+    "score": 874
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3845,9 +3393,7 @@
     "id": "226", 
     "idInt": 226, 
     "name": "level", 
-    "score": 871, 
-    "query": true,
-    "gene": true
+    "score": 871
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3862,9 +3408,7 @@
     "id": "227", 
     "idInt": 227, 
     "name": "issue", 
-    "score": 871, 
-    "query": true,
-    "gene": true
+    "score": 871
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3879,9 +3423,7 @@
     "id": "228", 
     "idInt": 228, 
     "name": "already", 
-    "score": 869, 
-    "query": true,
-    "gene": true
+    "score": 869
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3896,9 +3438,7 @@
     "id": "229", 
     "idInt": 229, 
     "name": "education", 
-    "score": 868, 
-    "query": true,
-    "gene": true
+    "score": 868
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3913,9 +3453,7 @@
     "id": "230", 
     "idInt": 230, 
     "name": "govt", 
-    "score": 865, 
-    "query": true,
-    "gene": true
+    "score": 865
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3930,9 +3468,7 @@
     "id": "231", 
     "idInt": 231, 
     "name": "increase", 
-    "score": 865, 
-    "query": true,
-    "gene": true
+    "score": 865
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3947,9 +3483,7 @@
     "id": "232", 
     "idInt": 232, 
     "name": "distancing", 
-    "score": 863, 
-    "query": true,
-    "gene": true
+    "score": 863
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3964,9 +3498,7 @@
     "id": "233", 
     "idInt": 233, 
     "name": "using", 
-    "score": 859, 
-    "query": true,
-    "gene": true
+    "score": 859
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3981,9 +3513,7 @@
     "id": "234", 
     "idInt": 234, 
     "name": "highest", 
-    "score": 853, 
-    "query": true,
-    "gene": true
+    "score": 853
   }, 
   "group": "nodes", 
   "removed": false,
@@ -3998,9 +3528,7 @@
     "id": "235", 
     "idInt": 235, 
     "name": "story", 
-    "score": 853, 
-    "query": true,
-    "gene": true
+    "score": 853
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4015,9 +3543,7 @@
     "id": "236", 
     "idInt": 236, 
     "name": "coronaviruspandemic", 
-    "score": 851, 
-    "query": true,
-    "gene": true
+    "score": 851
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4032,9 +3558,7 @@
     "id": "237", 
     "idInt": 237, 
     "name": "blood", 
-    "score": 846, 
-    "query": true,
-    "gene": true
+    "score": 846
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4049,9 +3573,7 @@
     "id": "238", 
     "idInt": 238, 
     "name": "odisha", 
-    "score": 844, 
-    "query": true,
-    "gene": true
+    "score": 844
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4066,9 +3588,7 @@
     "id": "239", 
     "idInt": 239, 
     "name": "talk", 
-    "score": 843, 
-    "query": true,
-    "gene": true
+    "score": 843
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4083,9 +3603,7 @@
     "id": "240", 
     "idInt": 240, 
     "name": "second", 
-    "score": 841, 
-    "query": true,
-    "gene": true
+    "score": 841
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4100,9 +3618,7 @@
     "id": "241", 
     "idInt": 241, 
     "name": "dead", 
-    "score": 841, 
-    "query": true,
-    "gene": true
+    "score": 841
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4117,9 +3633,7 @@
     "id": "242", 
     "idInt": 242, 
     "name": "infected", 
-    "score": 836, 
-    "query": true,
-    "gene": true
+    "score": 836
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4134,9 +3648,7 @@
     "id": "243", 
     "idInt": 243, 
     "name": "young", 
-    "score": 835, 
-    "query": true,
-    "gene": true
+    "score": 835
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4151,9 +3663,7 @@
     "id": "244", 
     "idInt": 244, 
     "name": "slow", 
-    "score": 831, 
-    "query": true,
-    "gene": true
+    "score": 831
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4168,9 +3678,7 @@
     "id": "245", 
     "idInt": 245, 
     "name": "question", 
-    "score": 830, 
-    "query": true,
-    "gene": true
+    "score": 830
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4185,9 +3693,7 @@
     "id": "246", 
     "idInt": 246, 
     "name": "someone", 
-    "score": 826, 
-    "query": true,
-    "gene": true
+    "score": 826
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4202,9 +3708,7 @@
     "id": "247", 
     "idInt": 247, 
     "name": "district", 
-    "score": 825, 
-    "query": true,
-    "gene": true
+    "score": 825
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4219,9 +3723,7 @@
     "id": "248", 
     "idInt": 248, 
     "name": "making", 
-    "score": 822, 
-    "query": true,
-    "gene": true
+    "score": 822
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4236,9 +3738,7 @@
     "id": "249", 
     "idInt": 249, 
     "name": "order", 
-    "score": 816, 
-    "query": true,
-    "gene": true
+    "score": 816
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4253,9 +3753,7 @@
     "id": "250", 
     "idInt": 250, 
     "name": "future", 
-    "score": 811, 
-    "query": true,
-    "gene": true
+    "score": 811
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4270,9 +3768,7 @@
     "id": "251", 
     "idInt": 251, 
     "name": "lakh", 
-    "score": 806, 
-    "query": true,
-    "gene": true
+    "score": 806
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4287,9 +3783,7 @@
     "id": "252", 
     "idInt": 252, 
     "name": "control", 
-    "score": 805, 
-    "query": true,
-    "gene": true
+    "score": 805
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4304,9 +3798,7 @@
     "id": "253", 
     "idInt": 253, 
     "name": "treatment", 
-    "score": 801, 
-    "query": true,
-    "gene": true
+    "score": 801
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4321,9 +3813,7 @@
     "id": "254", 
     "idInt": 254, 
     "name": "used", 
-    "score": 786, 
-    "query": true,
-    "gene": true
+    "score": 786
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4338,9 +3828,7 @@
     "id": "255", 
     "idInt": 255, 
     "name": "industry", 
-    "score": 784, 
-    "query": true,
-    "gene": true
+    "score": 784
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4355,9 +3843,7 @@
     "id": "256", 
     "idInt": 256, 
     "name": "remember", 
-    "score": 783, 
-    "query": true,
-    "gene": true
+    "score": 783
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4372,9 +3858,7 @@
     "id": "257", 
     "idInt": 257, 
     "name": "coming", 
-    "score": 779, 
-    "query": true,
-    "gene": true
+    "score": 779
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4389,9 +3873,7 @@
     "id": "258", 
     "idInt": 258, 
     "name": "florida", 
-    "score": 778, 
-    "query": true,
-    "gene": true
+    "score": 778
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4406,9 +3888,7 @@
     "id": "259", 
     "idInt": 259, 
     "name": "others", 
-    "score": 765, 
-    "query": true,
-    "gene": true
+    "score": 765
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4423,9 +3903,7 @@
     "id": "260", 
     "idInt": 260, 
     "name": "available", 
-    "score": 764, 
-    "query": true,
-    "gene": true
+    "score": 764
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4440,9 +3918,7 @@
     "id": "261", 
     "idInt": 261, 
     "name": "police", 
-    "score": 761, 
-    "query": true,
-    "gene": true
+    "score": 761
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4457,9 +3933,7 @@
     "id": "262", 
     "idInt": 262, 
     "name": "africa", 
-    "score": 760, 
-    "query": true,
-    "gene": true
+    "score": 760
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4474,9 +3948,7 @@
     "id": "263", 
     "idInt": 263, 
     "name": "plasma", 
-    "score": 755, 
-    "query": true,
-    "gene": true
+    "score": 755
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4491,9 +3963,7 @@
     "id": "264", 
     "idInt": 264, 
     "name": "group", 
-    "score": 752, 
-    "query": true,
-    "gene": true
+    "score": 752
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4508,9 +3978,7 @@
     "id": "265", 
     "idInt": 265, 
     "name": "three", 
-    "score": 752, 
-    "query": true,
-    "gene": true
+    "score": 752
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4525,9 +3993,7 @@
     "id": "266", 
     "idInt": 266, 
     "name": "information", 
-    "score": 744, 
-    "query": true,
-    "gene": true
+    "score": 744
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4542,9 +4008,7 @@
     "id": "267", 
     "idInt": 267, 
     "name": "together", 
-    "score": 741, 
-    "query": true,
-    "gene": true
+    "score": 741
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4559,9 +4023,7 @@
     "id": "268", 
     "idInt": 268, 
     "name": "hard", 
-    "score": 733, 
-    "query": true,
-    "gene": true
+    "score": 733
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4576,9 +4038,7 @@
     "id": "269", 
     "idInt": 269, 
     "name": "close", 
-    "score": 733, 
-    "query": true,
-    "gene": true
+    "score": 733
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4593,9 +4053,7 @@
     "id": "270", 
     "idInt": 270, 
     "name": "human", 
-    "score": 731, 
-    "query": true,
-    "gene": true
+    "score": 731
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4610,9 +4068,7 @@
     "id": "271", 
     "idInt": 271, 
     "name": "mark", 
-    "score": 731, 
-    "query": true,
-    "gene": true
+    "score": 731
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4627,9 +4083,7 @@
     "id": "272", 
     "idInt": 272, 
     "name": "trial", 
-    "score": 731, 
-    "query": true,
-    "gene": true
+    "score": 731
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4644,9 +4098,7 @@
     "id": "273", 
     "idInt": 273, 
     "name": "teacher", 
-    "score": 730, 
-    "query": true,
-    "gene": true
+    "score": 730
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4661,9 +4113,7 @@
     "id": "274", 
     "idInt": 274, 
     "name": "fact", 
-    "score": 724, 
-    "query": true,
-    "gene": true
+    "score": 724
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4678,9 +4128,7 @@
     "id": "275", 
     "idInt": 275, 
     "name": "money", 
-    "score": 721, 
-    "query": true,
-    "gene": true
+    "score": 721
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4695,9 +4143,7 @@
     "id": "276", 
     "idInt": 276, 
     "name": "happy", 
-    "score": 721, 
-    "query": true,
-    "gene": true
+    "score": 721
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4712,9 +4158,7 @@
     "id": "277", 
     "idInt": 277, 
     "name": "coronavirusupdate", 
-    "score": 711, 
-    "query": true,
-    "gene": true
+    "score": 711
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4729,9 +4173,7 @@
     "id": "278", 
     "idInt": 278, 
     "name": "discus", 
-    "score": 710, 
-    "query": true,
-    "gene": true
+    "score": 710
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4746,9 +4188,7 @@
     "id": "279", 
     "idInt": 279, 
     "name": "parent", 
-    "score": 710, 
-    "query": true,
-    "gene": true
+    "score": 710
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4763,9 +4203,7 @@
     "id": "280", 
     "idInt": 280, 
     "name": "always", 
-    "score": 709, 
-    "query": true,
-    "gene": true
+    "score": 709
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4780,9 +4218,7 @@
     "id": "281", 
     "idInt": 281, 
     "name": "wearamask", 
-    "score": 708, 
-    "query": true,
-    "gene": true
+    "score": 708
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4797,9 +4233,7 @@
     "id": "282", 
     "idInt": 282, 
     "name": "believe", 
-    "score": 707, 
-    "query": true,
-    "gene": true
+    "score": 707
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4814,9 +4248,7 @@
     "id": "283", 
     "idInt": 283, 
     "name": "office", 
-    "score": 707, 
-    "query": true,
-    "gene": true
+    "score": 707
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4831,9 +4263,7 @@
     "id": "284", 
     "idInt": 284, 
     "name": "cross", 
-    "score": 703, 
-    "query": true,
-    "gene": true
+    "score": 703
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4848,9 +4278,7 @@
     "id": "285", 
     "idInt": 285, 
     "name": "enough", 
-    "score": 703, 
-    "query": true,
-    "gene": true
+    "score": 703
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4865,9 +4293,7 @@
     "id": "286", 
     "idInt": 286, 
     "name": "class", 
-    "score": 701, 
-    "query": true,
-    "gene": true
+    "score": 701
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4882,9 +4308,7 @@
     "id": "287", 
     "idInt": 287, 
     "name": "return", 
-    "score": 700, 
-    "query": true,
-    "gene": true
+    "score": 700
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4899,9 +4323,7 @@
     "id": "288", 
     "idInt": 288, 
     "name": "market", 
-    "score": 695, 
-    "query": true,
-    "gene": true
+    "score": 695
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4916,9 +4338,7 @@
     "id": "289", 
     "idInt": 289, 
     "name": "webinar", 
-    "score": 693, 
-    "query": true,
-    "gene": true
+    "score": 693
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4933,9 +4353,7 @@
     "id": "290", 
     "idInt": 290, 
     "name": "early", 
-    "score": 690, 
-    "query": true,
-    "gene": true
+    "score": 690
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4950,9 +4368,7 @@
     "id": "291", 
     "idInt": 291, 
     "name": "found", 
-    "score": 688, 
-    "query": true,
-    "gene": true
+    "score": 688
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4967,9 +4383,7 @@
     "id": "292", 
     "idInt": 292, 
     "name": "employee", 
-    "score": 687, 
-    "query": true,
-    "gene": true
+    "score": 687
   }, 
   "group": "nodes", 
   "removed": false,
@@ -4984,9 +4398,7 @@
     "id": "293", 
     "idInt": 293, 
     "name": "restriction", 
-    "score": 687, 
-    "query": true,
-    "gene": true
+    "score": 687
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5001,9 +4413,7 @@
     "id": "294", 
     "idInt": 294, 
     "name": "canada", 
-    "score": 686, 
-    "query": true,
-    "gene": true
+    "score": 686
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5018,9 +4428,7 @@
     "id": "295", 
     "idInt": 295, 
     "name": "sample", 
-    "score": 683, 
-    "query": true,
-    "gene": true
+    "score": 683
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5035,9 +4443,7 @@
     "id": "296", 
     "idInt": 296, 
     "name": "chief", 
-    "score": 682, 
-    "query": true,
-    "gene": true
+    "score": 682
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5052,9 +4458,7 @@
     "id": "297", 
     "idInt": 297, 
     "name": "thousand", 
-    "score": 680, 
-    "query": true,
-    "gene": true
+    "score": 680
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5069,9 +4473,7 @@
     "id": "298", 
     "idInt": 298, 
     "name": "among", 
-    "score": 680, 
-    "query": true,
-    "gene": true
+    "score": 680
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5086,9 +4488,7 @@
     "id": "299", 
     "idInt": 299, 
     "name": "relief", 
-    "score": 678, 
-    "query": true,
-    "gene": true
+    "score": 678
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5103,9 +4503,7 @@
     "id": "300", 
     "idInt": 300, 
     "name": "announced", 
-    "score": 676, 
-    "query": true,
-    "gene": true
+    "score": 676
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5120,9 +4518,7 @@
     "id": "301", 
     "idInt": 301, 
     "name": "worldwide", 
-    "score": 675, 
-    "query": true,
-    "gene": true
+    "score": 675
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5137,9 +4533,7 @@
     "id": "302", 
     "idInt": 302, 
     "name": "election", 
-    "score": 673, 
-    "query": true,
-    "gene": true
+    "score": 673
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5154,9 +4548,7 @@
     "id": "303", 
     "idInt": 303, 
     "name": "past", 
-    "score": 671, 
-    "query": true,
-    "gene": true
+    "score": 671
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5171,9 +4563,7 @@
     "id": "304", 
     "idInt": 304, 
     "name": "able", 
-    "score": 667, 
-    "query": true,
-    "gene": true
+    "score": 667
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5188,9 +4578,7 @@
     "id": "305", 
     "idInt": 305, 
     "name": "negative", 
-    "score": 667, 
-    "query": true,
-    "gene": true
+    "score": 667
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5205,9 +4593,7 @@
     "id": "306", 
     "idInt": 306, 
     "name": "might", 
-    "score": 666, 
-    "query": true,
-    "gene": true
+    "score": 666
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5222,9 +4608,7 @@
     "id": "307", 
     "idInt": 307, 
     "name": "least", 
-    "score": 665, 
-    "query": true,
-    "gene": true
+    "score": 665
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5239,9 +4623,7 @@
     "id": "308", 
     "idInt": 308, 
     "name": "identify", 
-    "score": 662, 
-    "query": true,
-    "gene": true
+    "score": 662
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5256,9 +4638,7 @@
     "id": "309", 
     "idInt": 309, 
     "name": "point", 
-    "score": 662, 
-    "query": true,
-    "gene": true
+    "score": 662
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5273,9 +4653,7 @@
     "id": "310", 
     "idInt": 310, 
     "name": "problem", 
-    "score": 661, 
-    "query": true,
-    "gene": true
+    "score": 661
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5290,9 +4668,7 @@
     "id": "311", 
     "idInt": 311, 
     "name": "current", 
-    "score": 655, 
-    "query": true,
-    "gene": true
+    "score": 655
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5307,9 +4683,7 @@
     "id": "312", 
     "idInt": 312, 
     "name": "something", 
-    "score": 654, 
-    "query": true,
-    "gene": true
+    "score": 654
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5324,9 +4698,7 @@
     "id": "313", 
     "idInt": 313, 
     "name": "australia", 
-    "score": 652, 
-    "query": true,
-    "gene": true
+    "score": 652
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5341,9 +4713,7 @@
     "id": "314", 
     "idInt": 314, 
     "name": "become", 
-    "score": 651, 
-    "query": true,
-    "gene": true
+    "score": 651
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5358,9 +4728,7 @@
     "id": "315", 
     "idInt": 315, 
     "name": "trying", 
-    "score": 651, 
-    "query": true,
-    "gene": true
+    "score": 651
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5375,9 +4743,7 @@
     "id": "316", 
     "idInt": 316, 
     "name": "doesnt", 
-    "score": 647, 
-    "query": true,
-    "gene": true
+    "score": 647
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5392,9 +4758,7 @@
     "id": "317", 
     "idInt": 317, 
     "name": "fear", 
-    "score": 647, 
-    "query": true,
-    "gene": true
+    "score": 647
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5409,9 +4773,7 @@
     "id": "318", 
     "idInt": 318, 
     "name": "recorded", 
-    "score": 642, 
-    "query": true,
-    "gene": true
+    "score": 642
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5426,9 +4788,7 @@
     "id": "319", 
     "idInt": 319, 
     "name": "effect", 
-    "score": 641, 
-    "query": true,
-    "gene": true
+    "score": 641
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5443,9 +4803,7 @@
     "id": "320", 
     "idInt": 320, 
     "name": "closed", 
-    "score": 641, 
-    "query": true,
-    "gene": true
+    "score": 641
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5460,9 +4818,7 @@
     "id": "321", 
     "idInt": 321, 
     "name": "saturday", 
-    "score": 637, 
-    "query": true,
-    "gene": true
+    "score": 637
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5477,9 +4833,7 @@
     "id": "322", 
     "idInt": 322, 
     "name": "university", 
-    "score": 637, 
-    "query": true,
-    "gene": true
+    "score": 637
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5494,9 +4848,7 @@
     "id": "323", 
     "idInt": 323, 
     "name": "despite", 
-    "score": 637, 
-    "query": true,
-    "gene": true
+    "score": 637
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5511,9 +4863,7 @@
     "id": "324", 
     "idInt": 324, 
     "name": "action", 
-    "score": 636, 
-    "query": true,
-    "gene": true
+    "score": 636
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5528,9 +4878,7 @@
     "id": "325", 
     "idInt": 325, 
     "name": "cause", 
-    "score": 636, 
-    "query": true,
-    "gene": true
+    "score": 636
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5545,9 +4893,7 @@
     "id": "326", 
     "idInt": 326, 
     "name": "area", 
-    "score": 635, 
-    "query": true,
-    "gene": true
+    "score": 635
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5562,9 +4908,7 @@
     "id": "327", 
     "idInt": 327, 
     "name": "youre", 
-    "score": 632, 
-    "query": true,
-    "gene": true
+    "score": 632
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5579,9 +4923,7 @@
     "id": "328", 
     "idInt": 328, 
     "name": "save", 
-    "score": 629, 
-    "query": true,
-    "gene": true
+    "score": 629
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5596,9 +4938,7 @@
     "id": "329", 
     "idInt": 329, 
     "name": "college", 
-    "score": 628, 
-    "query": true,
-    "gene": true
+    "score": 628
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5613,9 +4953,7 @@
     "id": "330", 
     "idInt": 330, 
     "name": "thats", 
-    "score": 626, 
-    "query": true,
-    "gene": true
+    "score": 626
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5630,9 +4968,7 @@
     "id": "331", 
     "idInt": 331, 
     "name": "according", 
-    "score": 623, 
-    "query": true,
-    "gene": true
+    "score": 623
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5647,9 +4983,7 @@
     "id": "332", 
     "idInt": 332, 
     "name": "visit", 
-    "score": 620, 
-    "query": true,
-    "gene": true
+    "score": 620
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5664,9 +4998,7 @@
     "id": "333", 
     "idInt": 333, 
     "name": "seen", 
-    "score": 620, 
-    "query": true,
-    "gene": true
+    "score": 620
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5681,9 +5013,7 @@
     "id": "334", 
     "idInt": 334, 
     "name": "understand", 
-    "score": 619, 
-    "query": true,
-    "gene": true
+    "score": 619
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5698,9 +5028,7 @@
     "id": "335", 
     "idInt": 335, 
     "name": "especially", 
-    "score": 616, 
-    "query": true,
-    "gene": true
+    "score": 616
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5715,9 +5043,7 @@
     "id": "336", 
     "idInt": 336, 
     "name": "little", 
-    "score": 613, 
-    "query": true,
-    "gene": true
+    "score": 613
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5732,9 +5058,7 @@
     "id": "337", 
     "idInt": 337, 
     "name": "likely", 
-    "score": 611, 
-    "query": true,
-    "gene": true
+    "score": 611
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5749,9 +5073,7 @@
     "id": "338", 
     "idInt": 338, 
     "name": "science", 
-    "score": 611, 
-    "query": true,
-    "gene": true
+    "score": 611
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5766,9 +5088,7 @@
     "id": "339", 
     "idInt": 339, 
     "name": "protest", 
-    "score": 608, 
-    "query": true,
-    "gene": true
+    "score": 608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5783,9 +5103,7 @@
     "id": "340", 
     "idInt": 340, 
     "name": "house", 
-    "score": 608, 
-    "query": true,
-    "gene": true
+    "score": 608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5800,9 +5118,7 @@
     "id": "341", 
     "idInt": 341, 
     "name": "different", 
-    "score": 608, 
-    "query": true,
-    "gene": true
+    "score": 608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5817,9 +5133,7 @@
     "id": "342", 
     "idInt": 342, 
     "name": "youtube", 
-    "score": 608, 
-    "query": true,
-    "gene": true
+    "score": 608
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5834,9 +5148,7 @@
     "id": "343", 
     "idInt": 343, 
     "name": "small", 
-    "score": 607, 
-    "query": true,
-    "gene": true
+    "score": 607
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5851,9 +5163,7 @@
     "id": "344", 
     "idInt": 344, 
     "name": "normal", 
-    "score": 604, 
-    "query": true,
-    "gene": true
+    "score": 604
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5868,9 +5178,7 @@
     "id": "345", 
     "idInt": 345, 
     "name": "event", 
-    "score": 603, 
-    "query": true,
-    "gene": true
+    "score": 603
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5885,9 +5193,7 @@
     "id": "346", 
     "idInt": 346, 
     "name": "texas", 
-    "score": 600, 
-    "query": true,
-    "gene": true
+    "score": 600
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5902,9 +5208,7 @@
     "id": "347", 
     "idInt": 347, 
     "name": "reopening", 
-    "score": 599, 
-    "query": true,
-    "gene": true
+    "score": 599
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5919,9 +5223,7 @@
     "id": "348", 
     "idInt": 348, 
     "name": "link", 
-    "score": 597, 
-    "query": true,
-    "gene": true
+    "score": 597
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5936,9 +5238,7 @@
     "id": "349", 
     "idInt": 349, 
     "name": "party", 
-    "score": 596, 
-    "query": true,
-    "gene": true
+    "score": 596
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5953,9 +5253,7 @@
     "id": "350", 
     "idInt": 350, 
     "name": "emergency", 
-    "score": 596, 
-    "query": true,
-    "gene": true
+    "score": 596
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5970,9 +5268,7 @@
     "id": "351", 
     "idInt": 351, 
     "name": "thread", 
-    "score": 594, 
-    "query": true,
-    "gene": true
+    "score": 594
   }, 
   "group": "nodes", 
   "removed": false,
@@ -5987,9 +5283,7 @@
     "id": "352", 
     "idInt": 352, 
     "name": "following", 
-    "score": 592, 
-    "query": true,
-    "gene": true
+    "score": 592
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6004,9 +5298,7 @@
     "id": "353", 
     "idInt": 353, 
     "name": "soon", 
-    "score": 591, 
-    "query": true,
-    "gene": true
+    "score": 591
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6021,9 +5313,7 @@
     "id": "354", 
     "idInt": 354, 
     "name": "single", 
-    "score": 589, 
-    "query": true,
-    "gene": true
+    "score": 589
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6038,9 +5328,7 @@
     "id": "355", 
     "idInt": 355, 
     "name": "everything", 
-    "score": 588, 
-    "query": true,
-    "gene": true
+    "score": 588
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6055,9 +5343,7 @@
     "id": "356", 
     "idInt": 356, 
     "name": "sooner", 
-    "score": 587, 
-    "query": true,
-    "gene": true
+    "score": 587
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6072,9 +5358,7 @@
     "id": "357", 
     "idInt": 357, 
     "name": "learning", 
-    "score": 586, 
-    "query": true,
-    "gene": true
+    "score": 586
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6089,9 +5373,7 @@
     "id": "358", 
     "idInt": 358, 
     "name": "policy", 
-    "score": 586, 
-    "query": true,
-    "gene": true
+    "score": 586
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6106,9 +5388,7 @@
     "id": "359", 
     "idInt": 359, 
     "name": "stand", 
-    "score": 584, 
-    "query": true,
-    "gene": true
+    "score": 584
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6123,9 +5403,7 @@
     "id": "360", 
     "idInt": 360, 
     "name": "affected", 
-    "score": 583, 
-    "query": true,
-    "gene": true
+    "score": 583
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6140,9 +5418,7 @@
     "id": "361", 
     "idInt": 361, 
     "name": "play", 
-    "score": 582, 
-    "query": true,
-    "gene": true
+    "score": 582
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6157,9 +5433,7 @@
     "id": "362", 
     "idInt": 362, 
     "name": "provide", 
-    "score": 577, 
-    "query": true,
-    "gene": true
+    "score": 577
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6174,9 +5448,7 @@
     "id": "363", 
     "idInt": 363, 
     "name": "updated", 
-    "score": 575, 
-    "query": true,
-    "gene": true
+    "score": 575
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6191,9 +5463,7 @@
     "id": "364", 
     "idInt": 364, 
     "name": "type", 
-    "score": 574, 
-    "query": true,
-    "gene": true
+    "score": 574
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6208,9 +5478,7 @@
     "id": "365", 
     "idInt": 365, 
     "name": "effort", 
-    "score": 573, 
-    "query": true,
-    "gene": true
+    "score": 573
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6225,9 +5493,7 @@
     "id": "366", 
     "idInt": 366, 
     "name": "sarscov", 
-    "score": 573, 
-    "query": true,
-    "gene": true
+    "score": 573
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6242,9 +5508,7 @@
     "id": "367", 
     "idInt": 367, 
     "name": "almost", 
-    "score": 572, 
-    "query": true,
-    "gene": true
+    "score": 572
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6259,9 +5523,7 @@
     "id": "368", 
     "idInt": 368, 
     "name": "international", 
-    "score": 572, 
-    "query": true,
-    "gene": true
+    "score": 572
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6276,9 +5538,7 @@
     "id": "369", 
     "idInt": 369, 
     "name": "game", 
-    "score": 570, 
-    "query": true,
-    "gene": true
+    "score": 570
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6293,9 +5553,7 @@
     "id": "370", 
     "idInt": 370, 
     "name": "hear", 
-    "score": 570, 
-    "query": true,
-    "gene": true
+    "score": 570
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6310,9 +5568,7 @@
     "id": "371", 
     "idInt": 371, 
     "name": "fall", 
-    "score": 570, 
-    "query": true,
-    "gene": true
+    "score": 570
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6327,9 +5583,7 @@
     "id": "372", 
     "idInt": 372, 
     "name": "population", 
-    "score": 569, 
-    "query": true,
-    "gene": true
+    "score": 569
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6344,9 +5598,7 @@
     "id": "373", 
     "idInt": 373, 
     "name": "nothing", 
-    "score": 568, 
-    "query": true,
-    "gene": true
+    "score": 568
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6361,9 +5613,7 @@
     "id": "374", 
     "idInt": 374, 
     "name": "bill", 
-    "score": 568, 
-    "query": true,
-    "gene": true
+    "score": 568
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6378,9 +5628,7 @@
     "id": "375", 
     "idInt": 375, 
     "name": "united", 
-    "score": 567, 
-    "query": true,
-    "gene": true
+    "score": 567
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6395,9 +5643,7 @@
     "id": "376", 
     "idInt": 376, 
     "name": "sick", 
-    "score": 567, 
-    "query": true,
-    "gene": true
+    "score": 567
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6412,9 +5658,7 @@
     "id": "377", 
     "idInt": 377, 
     "name": "reason", 
-    "score": 567, 
-    "query": true,
-    "gene": true
+    "score": 567
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6429,9 +5673,7 @@
     "id": "378", 
     "idInt": 378, 
     "name": "centre", 
-    "score": 566, 
-    "query": true,
-    "gene": true
+    "score": 566
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6446,9 +5688,7 @@
     "id": "379", 
     "idInt": 379, 
     "name": "transmission", 
-    "score": 565, 
-    "query": true,
-    "gene": true
+    "score": 565
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6463,9 +5703,7 @@
     "id": "380", 
     "idInt": 380, 
     "name": "singleday", 
-    "score": 565, 
-    "query": true,
-    "gene": true
+    "score": 565
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6480,9 +5718,7 @@
     "id": "381", 
     "idInt": 381, 
     "name": "opportunity", 
-    "score": 565, 
-    "query": true,
-    "gene": true
+    "score": 565
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6497,9 +5733,7 @@
     "id": "382", 
     "idInt": 382, 
     "name": "demand", 
-    "score": 565, 
-    "query": true,
-    "gene": true
+    "score": 565
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6514,9 +5748,7 @@
     "id": "383", 
     "idInt": 383, 
     "name": "sunday", 
-    "score": 565, 
-    "query": true,
-    "gene": true
+    "score": 565
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6531,9 +5763,7 @@
     "id": "384", 
     "idInt": 384, 
     "name": "season", 
-    "score": 563, 
-    "query": true,
-    "gene": true
+    "score": 563
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6548,9 +5778,7 @@
     "id": "385", 
     "idInt": 385, 
     "name": "weekend", 
-    "score": 562, 
-    "query": true,
-    "gene": true
+    "score": 562
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6565,9 +5793,7 @@
     "id": "386", 
     "idInt": 386, 
     "name": "access", 
-    "score": 562, 
-    "query": true,
-    "gene": true
+    "score": 562
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6582,9 +5808,7 @@
     "id": "387", 
     "idInt": 387, 
     "name": "friday", 
-    "score": 561, 
-    "query": true,
-    "gene": true
+    "score": 561
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6599,9 +5823,7 @@
     "id": "388", 
     "idInt": 388, 
     "name": "saying", 
-    "score": 558, 
-    "query": true,
-    "gene": true
+    "score": 558
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6616,9 +5838,7 @@
     "id": "389", 
     "idInt": 389, 
     "name": "prevent", 
-    "score": 557, 
-    "query": true,
-    "gene": true
+    "score": 557
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6633,9 +5853,7 @@
     "id": "390", 
     "idInt": 390, 
     "name": "experience", 
-    "score": 557, 
-    "query": true,
-    "gene": true
+    "score": 557
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6650,9 +5868,7 @@
     "id": "391", 
     "idInt": 391, 
     "name": "virtual", 
-    "score": 554, 
-    "query": true,
-    "gene": true
+    "score": 554
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6667,9 +5883,7 @@
     "id": "392", 
     "idInt": 392, 
     "name": "continues", 
-    "score": 554, 
-    "query": true,
-    "gene": true
+    "score": 554
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6684,9 +5898,7 @@
     "id": "393", 
     "idInt": 393, 
     "name": "guideline", 
-    "score": 554, 
-    "query": true,
-    "gene": true
+    "score": 554
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6701,9 +5913,7 @@
     "id": "394", 
     "idInt": 394, 
     "name": "rule", 
-    "score": 553, 
-    "query": true,
-    "gene": true
+    "score": 553
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6718,9 +5928,7 @@
     "id": "395", 
     "idInt": 395, 
     "name": "taken", 
-    "score": 552, 
-    "query": true,
-    "gene": true
+    "score": 552
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6735,9 +5943,7 @@
     "id": "396", 
     "idInt": 396, 
     "name": "effective", 
-    "score": 551, 
-    "query": true,
-    "gene": true
+    "score": 551
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6752,9 +5958,7 @@
     "id": "397", 
     "idInt": 397, 
     "name": "congress", 
-    "score": 548, 
-    "query": true,
-    "gene": true
+    "score": 548
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6769,9 +5973,7 @@
     "id": "398", 
     "idInt": 398, 
     "name": "dying", 
-    "score": 544, 
-    "query": true,
-    "gene": true
+    "score": 544
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6786,9 +5988,7 @@
     "id": "399", 
     "idInt": 399, 
     "name": "whole", 
-    "score": 544, 
-    "query": true,
-    "gene": true
+    "score": 544
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6803,9 +6003,7 @@
     "id": "400", 
     "idInt": 400, 
     "name": "listen", 
-    "score": 543, 
-    "query": true,
-    "gene": true
+    "score": 543
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6820,9 +6018,7 @@
     "id": "401", 
     "idInt": 401, 
     "name": "recent", 
-    "score": 542, 
-    "query": true,
-    "gene": true
+    "score": 542
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6837,9 +6033,7 @@
     "id": "402", 
     "idInt": 402, 
     "name": "living", 
-    "score": 542, 
-    "query": true,
-    "gene": true
+    "score": 542
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6854,9 +6048,7 @@
     "id": "403", 
     "idInt": 403, 
     "name": "scientist", 
-    "score": 542, 
-    "query": true,
-    "gene": true
+    "score": 542
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6871,9 +6063,7 @@
     "id": "404", 
     "idInt": 404, 
     "name": "interesting", 
-    "score": 538, 
-    "query": true,
-    "gene": true
+    "score": 538
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6888,9 +6078,7 @@
     "id": "405", 
     "idInt": 405, 
     "name": "citizen", 
-    "score": 536, 
-    "query": true,
-    "gene": true
+    "score": 536
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6905,9 +6093,7 @@
     "id": "406", 
     "idInt": 406, 
     "name": "step", 
-    "score": 536, 
-    "query": true,
-    "gene": true
+    "score": 536
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6922,9 +6108,7 @@
     "id": "407", 
     "idInt": 407, 
     "name": "nation", 
-    "score": 535, 
-    "query": true,
-    "gene": true
+    "score": 535
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6939,9 +6123,7 @@
     "id": "408", 
     "idInt": 408, 
     "name": "technology", 
-    "score": 535, 
-    "query": true,
-    "gene": true
+    "score": 535
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6956,9 +6138,7 @@
     "id": "409", 
     "idInt": 409, 
     "name": "reach", 
-    "score": 535, 
-    "query": true,
-    "gene": true
+    "score": 535
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6973,9 +6153,7 @@
     "id": "410", 
     "idInt": 410, 
     "name": "related", 
-    "score": 534, 
-    "query": true,
-    "gene": true
+    "score": 534
   }, 
   "group": "nodes", 
   "removed": false,
@@ -6990,9 +6168,7 @@
     "id": "411", 
     "idInt": 411, 
     "name": "wave", 
-    "score": 530, 
-    "query": true,
-    "gene": true
+    "score": 530
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7007,9 +6183,7 @@
     "id": "412", 
     "idInt": 412, 
     "name": "line", 
-    "score": 528, 
-    "query": true,
-    "gene": true
+    "score": 528
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7024,9 +6198,7 @@
     "id": "413", 
     "idInt": 413, 
     "name": "customer", 
-    "score": 528, 
-    "query": true,
-    "gene": true
+    "score": 528
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7041,9 +6213,7 @@
     "id": "414", 
     "idInt": 414, 
     "name": "resident", 
-    "score": 527, 
-    "query": true,
-    "gene": true
+    "score": 527
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7058,9 +6228,7 @@
     "id": "415", 
     "idInt": 415, 
     "name": "nearly", 
-    "score": 527, 
-    "query": true,
-    "gene": true
+    "score": 527
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7075,9 +6243,7 @@
     "id": "416", 
     "idInt": 416, 
     "name": "decision", 
-    "score": 526, 
-    "query": true,
-    "gene": true
+    "score": 526
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7092,9 +6258,7 @@
     "id": "417", 
     "idInt": 417, 
     "name": "claim", 
-    "score": 525, 
-    "query": true,
-    "gene": true
+    "score": 525
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7109,9 +6273,7 @@
     "id": "418", 
     "idInt": 418, 
     "name": "given", 
-    "score": 525, 
-    "query": true,
-    "gene": true
+    "score": 525
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7126,9 +6288,7 @@
     "id": "419", 
     "idInt": 419, 
     "name": "selfreporting", 
-    "score": 523, 
-    "query": true,
-    "gene": true
+    "score": 523
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7143,9 +6303,7 @@
     "id": "420", 
     "idInt": 420, 
     "name": "potus", 
-    "score": 523, 
-    "query": true,
-    "gene": true
+    "score": 523
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7160,9 +6318,7 @@
     "id": "421", 
     "idInt": 421, 
     "name": "tomorrow", 
-    "score": 523, 
-    "query": true,
-    "gene": true
+    "score": 523
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7177,9 +6333,7 @@
     "id": "422", 
     "idInt": 422, 
     "name": "ready", 
-    "score": 519, 
-    "query": true,
-    "gene": true
+    "score": 519
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7194,9 +6348,7 @@
     "id": "423", 
     "idInt": 423, 
     "name": "left", 
-    "score": 518, 
-    "query": true,
-    "gene": true
+    "score": 518
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7211,9 +6363,7 @@
     "id": "424", 
     "idInt": 424, 
     "name": "lead", 
-    "score": 518, 
-    "query": true,
-    "gene": true
+    "score": 518
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7228,9 +6378,7 @@
     "id": "425", 
     "idInt": 425, 
     "name": "worst", 
-    "score": 514, 
-    "query": true,
-    "gene": true
+    "score": 514
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7245,9 +6393,7 @@
     "id": "426", 
     "idInt": 426, 
     "name": "vote", 
-    "score": 514, 
-    "query": true,
-    "gene": true
+    "score": 514
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7262,9 +6408,7 @@
     "id": "427", 
     "idInt": 427, 
     "name": "march", 
-    "score": 513, 
-    "query": true,
-    "gene": true
+    "score": 513
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7279,9 +6423,7 @@
     "id": "428", 
     "idInt": 428, 
     "name": "facility", 
-    "score": 513, 
-    "query": true,
-    "gene": true
+    "score": 513
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7296,9 +6438,7 @@
     "id": "429", 
     "idInt": 429, 
     "name": "conducted", 
-    "score": 512, 
-    "query": true,
-    "gene": true
+    "score": 512
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7313,9 +6453,7 @@
     "id": "430", 
     "idInt": 430, 
     "name": "healthy", 
-    "score": 511, 
-    "query": true,
-    "gene": true
+    "score": 511
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7330,9 +6468,7 @@
     "id": "431", 
     "idInt": 431, 
     "name": "actually", 
-    "score": 509, 
-    "query": true,
-    "gene": true
+    "score": 509
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7347,9 +6483,7 @@
     "id": "432", 
     "idInt": 432, 
     "name": "role", 
-    "score": 509, 
-    "query": true,
-    "gene": true
+    "score": 509
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7364,9 +6498,7 @@
     "id": "433", 
     "idInt": 433, 
     "name": "matter", 
-    "score": 509, 
-    "query": true,
-    "gene": true
+    "score": 509
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7381,9 +6513,7 @@
     "id": "434", 
     "idInt": 434, 
     "name": "ensure", 
-    "score": 506, 
-    "query": true,
-    "gene": true
+    "score": 506
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7398,9 +6528,7 @@
     "id": "435", 
     "idInt": 435, 
     "name": "head", 
-    "score": 506, 
-    "query": true,
-    "gene": true
+    "score": 506
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7415,9 +6543,7 @@
     "id": "436", 
     "idInt": 436, 
     "name": "program", 
-    "score": 505, 
-    "query": true,
-    "gene": true
+    "score": 505
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7432,9 +6558,7 @@
     "id": "437", 
     "idInt": 437, 
     "name": "list", 
-    "score": 504, 
-    "query": true,
-    "gene": true
+    "score": 504
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7449,9 +6573,7 @@
     "id": "438", 
     "idInt": 438, 
     "name": "kill", 
-    "score": 504, 
-    "query": true,
-    "gene": true
+    "score": 504
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7466,9 +6588,7 @@
     "id": "439", 
     "idInt": 439, 
     "name": "increased", 
-    "score": 502, 
-    "query": true,
-    "gene": true
+    "score": 502
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7483,9 +6603,7 @@
     "id": "440", 
     "idInt": 440, 
     "name": "helping", 
-    "score": 502, 
-    "query": true,
-    "gene": true
+    "score": 502
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7500,9 +6618,7 @@
     "id": "441", 
     "idInt": 441, 
     "name": "power", 
-    "score": 501, 
-    "query": true,
-    "gene": true
+    "score": 501
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7517,9 +6633,7 @@
     "id": "442", 
     "idInt": 442, 
     "name": "summer", 
-    "score": 501, 
-    "query": true,
-    "gene": true
+    "score": 501
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7534,9 +6648,7 @@
     "id": "443", 
     "idInt": 443, 
     "name": "till", 
-    "score": 501, 
-    "query": true,
-    "gene": true
+    "score": 501
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7551,9 +6663,7 @@
     "id": "444", 
     "idInt": 444, 
     "name": "offer", 
-    "score": 501, 
-    "query": true,
-    "gene": true
+    "score": 501
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7568,9 +6678,7 @@
     "id": "445", 
     "idInt": 445, 
     "name": "cure", 
-    "score": 501, 
-    "query": true,
-    "gene": true
+    "score": 501
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7585,9 +6693,7 @@
     "id": "446", 
     "idInt": 446, 
     "name": "count", 
-    "score": 500, 
-    "query": true,
-    "gene": true
+    "score": 500
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7602,9 +6708,7 @@
     "id": "447", 
     "idInt": 447, 
     "name": "fauci", 
-    "score": 500, 
-    "query": true,
-    "gene": true
+    "score": 500
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7619,9 +6723,7 @@
     "id": "448", 
     "idInt": 448, 
     "name": "phase", 
-    "score": 498, 
-    "query": true,
-    "gene": true
+    "score": 498
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7636,9 +6738,7 @@
     "id": "449", 
     "idInt": 449, 
     "name": "twitter", 
-    "score": 496, 
-    "query": true,
-    "gene": true
+    "score": 496
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7653,9 +6753,7 @@
     "id": "450", 
     "idInt": 450, 
     "name": "zealand", 
-    "score": 496, 
-    "query": true,
-    "gene": true
+    "score": 496
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7670,9 +6768,7 @@
     "id": "451", 
     "idInt": 451, 
     "name": "four", 
-    "score": 495, 
-    "query": true,
-    "gene": true
+    "score": 495
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7687,9 +6783,7 @@
     "id": "452", 
     "idInt": 452, 
     "name": "reporting", 
-    "score": 494, 
-    "query": true,
-    "gene": true
+    "score": 494
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7704,9 +6798,7 @@
     "id": "453", 
     "idInt": 453, 
     "name": "resource", 
-    "score": 494, 
-    "query": true,
-    "gene": true
+    "score": 494
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7721,9 +6813,7 @@
     "id": "454", 
     "idInt": 454, 
     "name": "digital", 
-    "score": 491, 
-    "query": true,
-    "gene": true
+    "score": 491
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7738,9 +6828,7 @@
     "id": "455", 
     "idInt": 455, 
     "name": "concern", 
-    "score": 491, 
-    "query": true,
-    "gene": true
+    "score": 491
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7755,9 +6843,7 @@
     "id": "456", 
     "idInt": 456, 
     "name": "republican", 
-    "score": 490, 
-    "query": true,
-    "gene": true
+    "score": 490
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7772,9 +6858,7 @@
     "id": "457", 
     "idInt": 457, 
     "name": "bringing", 
-    "score": 488, 
-    "query": true,
-    "gene": true
+    "score": 488
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7789,9 +6873,7 @@
     "id": "458", 
     "idInt": 458, 
     "name": "survey", 
-    "score": 488, 
-    "query": true,
-    "gene": true
+    "score": 488
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7806,9 +6888,7 @@
     "id": "459", 
     "idInt": 459, 
     "name": "strategy", 
-    "score": 488, 
-    "query": true,
-    "gene": true
+    "score": 488
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7823,9 +6903,7 @@
     "id": "460", 
     "idInt": 460, 
     "name": "ministry", 
-    "score": 488, 
-    "query": true,
-    "gene": true
+    "score": 488
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7840,9 +6918,7 @@
     "id": "461", 
     "idInt": 461, 
     "name": "reopen", 
-    "score": 486, 
-    "query": true,
-    "gene": true
+    "score": 486
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7857,9 +6933,7 @@
     "id": "462", 
     "idInt": 462, 
     "name": "hydroxychloroquine", 
-    "score": 486, 
-    "query": true,
-    "gene": true
+    "score": 486
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7874,9 +6948,7 @@
     "id": "463", 
     "idInt": 463, 
     "name": "seems", 
-    "score": 485, 
-    "query": true,
-    "gene": true
+    "score": 485
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7891,9 +6963,7 @@
     "id": "464", 
     "idInt": 464, 
     "name": "cost", 
-    "score": 484, 
-    "query": true,
-    "gene": true
+    "score": 484
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7908,9 +6978,7 @@
     "id": "465", 
     "idInt": 465, 
     "name": "rapid", 
-    "score": 484, 
-    "query": true,
-    "gene": true
+    "score": 484
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7925,9 +6993,7 @@
     "id": "466", 
     "idInt": 466, 
     "name": "black", 
-    "score": 483, 
-    "query": true,
-    "gene": true
+    "score": 483
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7942,9 +7008,7 @@
     "id": "467", 
     "idInt": 467, 
     "name": "critical", 
-    "score": 482, 
-    "query": true,
-    "gene": true
+    "score": 482
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7959,9 +7023,7 @@
     "id": "468", 
     "idInt": 468, 
     "name": "deal", 
-    "score": 481, 
-    "query": true,
-    "gene": true
+    "score": 481
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7976,9 +7038,7 @@
     "id": "469", 
     "idInt": 469, 
     "name": "tweet", 
-    "score": 480, 
-    "query": true,
-    "gene": true
+    "score": 480
   }, 
   "group": "nodes", 
   "removed": false,
@@ -7993,9 +7053,7 @@
     "id": "470", 
     "idInt": 470, 
     "name": "development", 
-    "score": 479, 
-    "query": true,
-    "gene": true
+    "score": 479
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8010,9 +7068,7 @@
     "id": "471", 
     "idInt": 471, 
     "name": "true", 
-    "score": 478, 
-    "query": true,
-    "gene": true
+    "score": 478
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8027,9 +7083,7 @@
     "id": "472", 
     "idInt": 472, 
     "name": "meeting", 
-    "score": 475, 
-    "query": true,
-    "gene": true
+    "score": 475
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8044,9 +7098,7 @@
     "id": "473", 
     "idInt": 473, 
     "name": "fighting", 
-    "score": 475, 
-    "query": true,
-    "gene": true
+    "score": 475
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8061,9 +7113,7 @@
     "id": "474", 
     "idInt": 474, 
     "name": "project", 
-    "score": 475, 
-    "query": true,
-    "gene": true
+    "score": 475
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8078,9 +7128,7 @@
     "id": "475", 
     "idInt": 475, 
     "name": "blog", 
-    "score": 475, 
-    "query": true,
-    "gene": true
+    "score": 475
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8095,9 +7143,7 @@
     "id": "476", 
     "idInt": 476, 
     "name": "putin", 
-    "score": 475, 
-    "query": true,
-    "gene": true
+    "score": 475
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8112,9 +7158,7 @@
     "id": "477", 
     "idInt": 477, 
     "name": "indian", 
-    "score": 473, 
-    "query": true,
-    "gene": true
+    "score": 473
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8129,9 +7173,7 @@
     "id": "478", 
     "idInt": 478, 
     "name": "nurse", 
-    "score": 473, 
-    "query": true,
-    "gene": true
+    "score": 473
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8146,9 +7188,7 @@
     "id": "479", 
     "idInt": 479, 
     "name": "solution", 
-    "score": 471, 
-    "query": true,
-    "gene": true
+    "score": 471
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8163,9 +7203,7 @@
     "id": "480", 
     "idInt": 480, 
     "name": "idea", 
-    "score": 471, 
-    "query": true,
-    "gene": true
+    "score": 471
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8180,9 +7218,7 @@
     "id": "481", 
     "idInt": 481, 
     "name": "isnt", 
-    "score": 470, 
-    "query": true,
-    "gene": true
+    "score": 470
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8197,9 +7233,7 @@
     "id": "482", 
     "idInt": 482, 
     "name": "drug", 
-    "score": 469, 
-    "query": true,
-    "gene": true
+    "score": 469
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8214,9 +7248,7 @@
     "id": "483", 
     "idInt": 483, 
     "name": "essential", 
-    "score": 468, 
-    "query": true,
-    "gene": true
+    "score": 468
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8231,9 +7263,7 @@
     "id": "484", 
     "idInt": 484, 
     "name": "california", 
-    "score": 467, 
-    "query": true,
-    "gene": true
+    "score": 467
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8248,9 +7278,7 @@
     "id": "485", 
     "idInt": 485, 
     "name": "financial", 
-    "score": 466, 
-    "query": true,
-    "gene": true
+    "score": 466
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8265,9 +7293,7 @@
     "id": "486", 
     "idInt": 486, 
     "name": "source", 
-    "score": 465, 
-    "query": true,
-    "gene": true
+    "score": 465
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8282,9 +7308,7 @@
     "id": "487", 
     "idInt": 487, 
     "name": "hotel", 
-    "score": 465, 
-    "query": true,
-    "gene": true
+    "score": 465
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8299,9 +7323,7 @@
     "id": "488", 
     "idInt": 488, 
     "name": "detail", 
-    "score": 465, 
-    "query": true,
-    "gene": true
+    "score": 465
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8316,9 +7338,7 @@
     "id": "489", 
     "idInt": 489, 
     "name": "governor", 
-    "score": 464, 
-    "query": true,
-    "gene": true
+    "score": 464
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8333,9 +7353,7 @@
     "id": "490", 
     "idInt": 490, 
     "name": "told", 
-    "score": 464, 
-    "query": true,
-    "gene": true
+    "score": 464
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8350,9 +7368,7 @@
     "id": "491", 
     "idInt": 491, 
     "name": "forget", 
-    "score": 464, 
-    "query": true,
-    "gene": true
+    "score": 464
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8367,9 +7383,7 @@
     "id": "492", 
     "idInt": 492, 
     "name": "fatality", 
-    "score": 463, 
-    "query": true,
-    "gene": true
+    "score": 463
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8384,9 +7398,7 @@
     "id": "493", 
     "idInt": 493, 
     "name": "took", 
-    "score": 462, 
-    "query": true,
-    "gene": true
+    "score": 462
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8401,9 +7413,7 @@
     "id": "494", 
     "idInt": 494, 
     "name": "federal", 
-    "score": 462, 
-    "query": true,
-    "gene": true
+    "score": 462
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8418,9 +7428,7 @@
     "id": "495", 
     "idInt": 495, 
     "name": "major", 
-    "score": 461, 
-    "query": true,
-    "gene": true
+    "score": 461
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8435,9 +7443,7 @@
     "id": "496", 
     "idInt": 496, 
     "name": "heart", 
-    "score": 461, 
-    "query": true,
-    "gene": true
+    "score": 461
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8452,9 +7458,7 @@
     "id": "497", 
     "idInt": 497, 
     "name": "word", 
-    "score": 460, 
-    "query": true,
-    "gene": true
+    "score": 460
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8469,9 +7473,7 @@
     "id": "498", 
     "idInt": 498, 
     "name": "started", 
-    "score": 459, 
-    "query": true,
-    "gene": true
+    "score": 459
   }, 
   "group": "nodes", 
   "removed": false,
@@ -8486,9 +7488,7 @@
     "id": "499", 
     "idInt": 499, 
     "name": "wish", 
-    "score": 459, 
-    "query": true,
-    "gene": true
+    "score": 459
   }, 
   "group": "nodes", 
   "removed": false,

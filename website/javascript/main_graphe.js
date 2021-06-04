@@ -92,7 +92,7 @@ function makeSlider( opts ){
 
     var $param = create_dom_elem('div', { 'class': 'param' }, []);
     var $label = create_dom_elem('label', { 'class': 'label label-default', for: 'slider-nb-topics' },
-        [ create_dom_text('Min number of apparitions') ]);
+        [ create_dom_text('Select minimal number of apparitions') ]);
     var $output = create_dom_elem('output', {
         id: 'nb-topics-value',
         for: 'slider-nb-topics'
