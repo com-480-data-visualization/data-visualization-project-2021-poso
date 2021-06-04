@@ -3,14 +3,22 @@
 <head>
 	<title>Poso project</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<link rel="stylesheet" href="css/main.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0/js/bootstrap.min.js"></script>
 	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.18.2/cytoscape.min.js"></script>
+
+	<!-- popup with name when mouse is over -->
+	<script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/cytoscape-popper@1.0.4/cytoscape-popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@4.0.1/umd/index.all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
 </head>
 
 <body>
@@ -23,37 +31,63 @@
 	</button>
 </nav>
 
-<div class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
+<!-- Title -->
+<div id="title" class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
 	<div class="container">
 		<h1>Coronavirus Semantic Field</h1>
-		<p>A comparison of tweets and news related to Covid-19</p>
+		<p style="text-align: center;">A comparison of tweets and news related to Covid-19</p>
 		<u>By Sophie du Couédic and Polina Proskura</u>
 	</div>
 </div>
+
+<!-- Gloabl description -->
 <div id="project_description" class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center">
 	<div class="container">
 		<h1>Problematics</h1>
 		<p>
 			There are a lot of concerning and debating news and discussions about covid. Some of them are spreading fake information,
-			some of them just sending panic messages. The vizualisations explore the statistics of the texts and find the most redundants topics or words
+			some of them just sending panic messages. This work explores tweets and news realted to covid in order to find the most redundants topics
 			appearing in the texts, to get a grasp of the mindset of the people living this pandemic : their feelings, their concerns.
-			The idea is also to see how the news content compares to the tweets content, to see if the news relates closely or not to what the population
-			is really experiencing. Are the news using the same lexical field to talk about coronavirus?
+			Also, how does the news content compare to the tweets content? Do we find the same words, the same concerns, the same raising questions when talking about covid?
 		</p>
 	</div>
 </div>
-<div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;">
 
+<!-- Virus image -->
+<div class="jumbotron" style="background-image: url('images/virus.jpg');background-repeat: no-repeat;background-size: cover;"></div>
+
+<!-- Main vizualisation -->
+<div id="main_vizu" class="vizu_section">
+	<div class="vizu_intro">
+		<h2> Words apparitions</h2>
+		<p>
+			Explore the apparitions of the different topics in the tweets and the news, and how the topics appear frequently together.
+		</p>
+		<a href="#cy_container" data-scroll>
+			<h1><span class="fas fa-angle-down"></span></h1>
+		</a>
+	</div>
+
+	<div id="cy_container" class="proper_vizu">
+		<div id="cy"></div>
+		<script src="javascript/main_graphe.js"></script>
+
+		<div id="cy-config" class="config">
+			<h3> Number of topics </h3>
+	 	</div>
+	</div>
+
+	<a href="#cy_container" data-scroll>
+		<h1><span class="fas fa-angle-up"></span></h1>
+	</a>
 </div>
 
-
-<section id="main-visualization" class="container">
-	<h2>Main visualization</h2>
+<!-- barchar vizu -->
+<section id="barchar-visualization" class="container">
+	<h2>Topic apparitions in News and in Tweets</h2>
 	<select id="selectButton"></select>
 	<div id="my_dataviz"></div>
 	<script src="javascript/barchar2.js"></script>
 </section>
-
-
 </body>
 </html>
