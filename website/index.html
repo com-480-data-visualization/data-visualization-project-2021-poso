@@ -19,6 +19,20 @@
 	<script src="https://cdn.jsdelivr.net/npm/cytoscape-popper@1.0.4/cytoscape-popper.min.js"></script>
 	<script src="https://unpkg.com/tippy.js@4.0.1/umd/index.all.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
+
+	<!-- Load the sankey.js function -->
+	<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/sankey.js"></script>
+	<style>
+		.link {
+			fill: none;
+			stroke: #000;
+			stroke-opacity: .2;
+		}
+		.link:hover {
+			stroke-opacity: .5;
+		}
+	</style>
+
 </head>
 
 <body>
@@ -89,5 +103,15 @@
 	<div id="my_dataviz"></div>
 	<script src="javascript/barchar2.js"></script>
 </section>
+
+<!-- sankey vizu -->
+<section id="sankey-visualization" class="container">
+	<h3>Country trends in Data</h3>
+	<select id="selectButton"></select>
+	<div id="sank"></div>
+	<script src="javascript/sank.js"></script>
+</section>
+
+
 </body>
 </html>
