@@ -8,8 +8,8 @@
 }, {
   "selector": "node",
   "style": {
-    "width": "mapData(score, 460, 101246, 20, 60)",
-    "height": "mapData(score, 460, 101246, 20, 60)",
+    "width": "mapData(score, 460, 101246, 60, 296)",
+    "height": "mapData(score, 460, 101246, 60, 296)",
     "font-size": "16px",
     "text-valign": "center",
     "text-halign": "center",
