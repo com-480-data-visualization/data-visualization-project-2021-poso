@@ -21,9 +21,13 @@
     "z-index": "10"
   }
 }, {
+    "selector": "node[score > 8000]",
+    "style": {
+      "content": "data(name)"
+    }
+}, {
     "selector": "node[idInt = 0]",
     "style": {
-      "content": "data(name)",
       "font-size": "60px",
       "font-weight": "bold"
     }
