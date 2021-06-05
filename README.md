@@ -149,10 +149,7 @@ The tools we plan to use for the visualization will be :
 
 ## Milestone 3 (4th June, 5pm)
 
-**80% of the final grade**
+The final website can be accessed [**Website**](https://com-480-data-visualization.github.io/data-visualization-project-2021-poso/website/)
 
-
-## Late policy
-
-- < 24h: 80% of the grade for the milestone
-- < 48h: 70% of the grade for the milestone
+---> [screen casting](screen_casting.mp4)
+---> [process book](process_book.pdf)
