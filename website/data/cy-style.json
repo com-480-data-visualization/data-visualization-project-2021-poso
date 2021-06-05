@@ -28,6 +28,11 @@
       "font-weight": "bold"
     }
 }, {
+    "selector": "node[score > 8000]",
+    "style": {
+      "content": "data(name)"
+    }
+}, {
   "selector": "node:selected",
   "style": {
     "content": "data(name)",

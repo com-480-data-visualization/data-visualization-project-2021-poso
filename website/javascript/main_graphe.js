@@ -2,7 +2,6 @@
 var min_score = 460;
 var max_score = 5000;
 var min_area = 2000;
-var score_thr = 1000;
 var label_colors_happy = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"];
 var label_colors = ["#1DC7BE", "#B284B5", "#B4340F", "#043E6E", "#E54DB1"];
 var tweets_color = "#66b2ff";
@@ -23,33 +22,38 @@ document.addEventListener('keydown', function(event) {
 var $ = document.querySelector.bind(document);
 
 // ----- attributes
+var layout;
 var removed_elems;
 var mode;
+var score_thr = 1000;
 
 Promise.all([
     // style
     fetch('data/cy-style.json', {mode: 'no-cors'})
     .then(function(res) {
-        return res.json()
+        return res.json();
     }),
     // data
     fetch('data/topics_connexions.json', {mode: 'no-cors'})
     .then(function(res) {
-        return res.json()
+        return res.json();
     })
 ])
 .then(function(dataArray) {
     var cy = window.cy = cytoscape({
         container: document.getElementById('cy'),
-        // graphe layout
-        layout: graphe_layout,
         style: dataArray[0],
         elements: dataArray[1],
         // interaction options :
         userZoomingEnabled:false,
         userPanningEnabled:false
     });
+    // graphe layout
+    layout = cy.layout(graphe_layout);
+    layout.run();
+    graphe_layout.randomize = false;
 
+    // set node size
     cy.style()
         .selector('node')
         .style('width', function(elem) {
@@ -175,6 +179,8 @@ function makeSlider( opts ){
 
     // remove or add nodes depending on input value
     var update = _.throttle(function(){
+        layout.stop();
+
         value = $input.value;
         $output.value = value;
 
@@ -207,6 +213,9 @@ function makeSlider( opts ){
             removed_elems = removed_elems.union(cy.remove(to_rem));
         }
         score_thr = value;
+
+        layout = cy.layout(graphe_layout);
+        layout.run();
 
     }, 1000/30);
 
@@ -243,7 +252,7 @@ var graphe_layout = {
     refresh: 20,
     fit: true,
     padding: 10,
-    randomize: true,
+    randomize: false,
     componentSpacing: 100,
     nodeRepulsion: 100000,
     edgeElasticity: 32,
@@ -253,5 +262,6 @@ var graphe_layout = {
     initialTemp: 200,
     coolingFactor: 0.95,
     minTemp: 1.0,
-    animate: true
+    animate: true,
+    maxSimulationTime:5000
 };
