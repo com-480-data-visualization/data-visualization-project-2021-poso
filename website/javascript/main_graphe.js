@@ -7,7 +7,7 @@ var label_colors_happy = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"]
 var label_colors = ["#1DC7BE", "#B284B5", "#B4340F", "#043E6E", "#E54DB1"];
 var tweets_color = "#66b2ff";
 var news_color = "#ff9933";
-var modes = ["Default", "K-means classification"];
+var modes = ["Default", "5-means classification"];
 
 // need to reposition graphe whenever viewport changes
 var topPos = document.getElementById('cy_container').offsetTop;
