@@ -1,10 +1,13 @@
-// constants
+// ----- constants
 var min_score = 460;
 var max_score = 5000;
 var min_area = 2000;
 var score_thr = 1000;
 var label_colors_happy = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"];
 var label_colors = ["#1DC7BE", "#B284B5", "#B4340F", "#043E6E", "#E54DB1"];
+var tweets_color = "#66b2ff";
+var news_color = "#ff9933";
+var modes = ["Default", "K-means classification"];
 
 // need to reposition graphe whenever viewport changes
 var topPos = document.getElementById('cy_container').offsetTop;
@@ -19,8 +22,10 @@ document.addEventListener('keydown', function(event) {
 // alias for commonly used function
 var $ = document.querySelector.bind(document);
 
-// fetch data and launch
+// ----- attributes
 var removed_elems;
+var mode;
+
 Promise.all([
     // style
     fetch('data/cy-style.json', {mode: 'no-cors'})
@@ -55,12 +60,6 @@ Promise.all([
             var area = (parseFloat(elem.data('score'))/min_score) * min_area;
             return Math.sqrt(area/Math.PI);
         })
-        .style('background-color', function(elem){
-            return label_colors[elem.data('label')];
-        })
-        .style('text-outline-color', function(elem){
-            return label_colors[elem.data('label')];
-        })
         .update();
 
     var to_rem = cy.nodes('[score < ' + score_thr + ']');
@@ -86,12 +85,49 @@ Promise.all([
     cy.nodes().unbind('mouseout');
     cy.nodes().bind('mouseout', (event) => event.target.tippy.hide());
 
-    // close information part
+    // --- Config ---
     $('#config-toggle').addEventListener('click', function(){
         $('body').classList.toggle('config-closed');
     });
 
+    // setup mode selection
+    d3.select("#graphSelectMode")
+        .selectAll('Modes')
+        .data(modes)
+        .enter()
+        .append('option')
+        .text(function(d) {return d;})
+        .attr("value", function(d){return d;});
+    d3.select("#graphSelectMode").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedMode = d3.select(this).property("value");
+        // run the updateChart function with this selected option
+        updateMode(selectedMode);
+    });
+    // initialize with default mode
+    updateMode(modes[0]);
 });
+
+function updateMode(selMode) {
+    if(selMode == "Default") {
+        cy.style()
+            .selector('node')
+            .style('background-color', "#555")
+            .style('text-outline-color', "#555")
+            .update();
+    }
+    else {
+        cy.style()
+            .selector('node')
+            .style('background-color', function(elem){
+                return label_colors[elem.data('label')];
+            })
+            .style('text-outline-color', function(elem){
+                return label_colors[elem.data('label')];
+            })
+            .update();
+    }
+}
 
 // popper for the name
 function makePopper(ele) {

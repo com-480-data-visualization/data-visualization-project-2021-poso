@@ -79,6 +79,10 @@
 		<span class="fa fa-bars config-toggle" id="config-toggle"></span>
 		<div id="cy-config" class="config">
 			<h3> Number of topics </h3>
+			<label id="mode_label" class="label label-default" for="graphSelectMode">
+				Visualization mode
+			</label>
+			<select id="graphSelectMode"></select>
 	 	</div>
 	</div>
 
@@ -90,7 +94,7 @@
 <!-- barchar vizu -->
 <section id="barchar-visualization" class="container">
 	<h2>Topic apparitions in News and in Tweets</h2>
-	<select id="selectButton"></select>
+	<select id="barChartSelectButton"></select>
 	<div id="my_dataviz"></div>
 	<script src="javascript/barchar2.js"></script>
 </section>

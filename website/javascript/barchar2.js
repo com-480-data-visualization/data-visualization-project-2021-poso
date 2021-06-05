@@ -89,16 +89,16 @@ svg.append("g")
     */
 
 // initialize groups
-var allGroup = ["emotions", "popular", "terminology"]
+var allGroup = ["emotions", "popular", "terminology"];
 
 // add the options to the button
-d3.select("#selectButton")
+d3.select("#barChartSelectButton")
     .selectAll('myOptions')
     .data(allGroup)
     .enter()
     .append('option')
     .text(function (d) { return d; }) // text showed in the menu
-    .attr("value", function (d) { return d; }) // corresponding value returned by the button
+    .attr("value", function (d) { return d; });// corresponding value returned by the button
 
 // Let's create axis elements here and we swill just update them in `update` function without creating a new 'g' element
 svg.append("g")
@@ -188,29 +188,29 @@ function convertData(data) {
 function updateNew(selectedGroup) {
     switch(selectedGroup) {
         case "emotions":
-            data = [...data1]
+            data = [...data1];
             break;
         case "popular":
-            data = [...data2]
+            data = [...data2];
             break;
         case "terminology":
-            data = [...data3]
+            data = [...data3];
             break;
         //case "my test":
         default:
-            data = [...data1]
+            data = [...data1];
             break;
 
     }
-    update(data)
+    update(data);
 }
 
-d3.select("#selectButton").on("change", function(d) {
+d3.select("#barChartSelectButton").on("change", function(d) {
     // recover the option that has been chosen
-    var selectedOption = d3.select(this).property("value")
+    var selectedOption = d3.select(this).property("value");
     // run the updateChart function with this selected option
-    updateNew(selectedOption)
-})
+    updateNew(selectedOption);
+});
 
 // Initialize the plot with the first dataset
 updateNew("emotions");
