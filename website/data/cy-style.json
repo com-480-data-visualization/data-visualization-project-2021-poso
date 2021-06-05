@@ -43,8 +43,8 @@
     "curve-style": "haystack",
     "haystack-radius": "0.5",
     "opacity": "0.5",
-    "line-color": "#bbb",
-    "width": "mapData(weight, 263, 13624, 4, 12)",
+    "line-color": "mapData(weight, 263, 9000, #bbb , black)",
+    "width": "mapData(weight, 263, 13624, 4, 20)",
     "overlay-padding": "3px"
   }
 }, {
