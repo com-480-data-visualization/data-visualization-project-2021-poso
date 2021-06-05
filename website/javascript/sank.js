@@ -21,7 +21,7 @@ var sankey = d3.sankey()
     .size([width, height]);
 
 // load the data
-d3.json(" http://localhost:8080/website/data/sank.json", function(error, graph) {
+d3.json("data/sank.json", function(error, graph) {
     /*graph = {
         nodes:[
             {node:0,name:"india"},

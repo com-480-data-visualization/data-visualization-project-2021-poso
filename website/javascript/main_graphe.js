@@ -3,7 +3,7 @@ var min_score = 460;
 var max_score = 5000;
 var min_area = 2000;
 var score_thr = 1000;
-// var label_colors = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"];
+var label_colors_happy = ["#52D726", "#FFEC00", "#FF7300", "#FF0000", "#007ED6"];
 var label_colors = ["#1DC7BE", "#B284B5", "#B4340F", "#043E6E", "#E54DB1"];
 
 // need to reposition graphe whenever viewport changes
@@ -85,6 +85,12 @@ Promise.all([
 
     cy.nodes().unbind('mouseout');
     cy.nodes().bind('mouseout', (event) => event.target.tippy.hide());
+
+    // close information part
+    $('#config-toggle').addEventListener('click', function(){
+        $('body').classList.toggle('config-closed');
+    });
+
 });
 
 // popper for the name
