@@ -1,15 +1,15 @@
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 850 - margin.left - margin.right,
-    height = 880 - margin.top - margin.bottom;
+var margin_sank = {top: 10, right: 10, bottom: 10, left: 10},
+    width_sank = 850 - margin_sank.left - margin_sank.right,
+    height_sank = 880 - margin_sank.top - margin_sank.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#sank").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+var svg_sank = d3.select("#sank").append("svg")
+    .attr("width", width_sank + margin_sank.left + margin_sank.right)
+    .attr("height", height_sank + margin_sank.top + margin_sank.bottom)
     .append("g")
     .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        "translate(" + margin_sank.left + "," + margin_sank.top + ")");
 
 // Color scale used
 var color = d3.scaleOrdinal(d3.schemeCategory20);
@@ -18,7 +18,7 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 var sankey = d3.sankey()
     .nodeWidth(6) //36
     .nodePadding(20) //290
-    .size([width, height]);
+    .size([width_sank, height_sank]);
 
 // load the data
 d3.json("data/sank.json", function(error, graph) {
@@ -93,7 +93,7 @@ d3.json("data/sank.json", function(error, graph) {
         .layout(1);
 
     // add in the links
-    var link = svg.append("g")
+    var link = svg_sank.append("g")
         .selectAll(".link")
         .data(graph.links)
         .enter()
@@ -108,7 +108,7 @@ d3.json("data/sank.json", function(error, graph) {
         });
 
     // add in the nodes
-    var node = svg.append("g")
+    var node = svg_sank.append("g")
         .selectAll(".node")
         .data(graph.nodes)
         .enter().append("g")
@@ -158,7 +158,7 @@ d3.json("data/sank.json", function(error, graph) {
             return d.name;
         })
         .filter(function (d) {
-            return d.x < width / 2;
+            return d.x < width_sank / 2;
         })
         .attr("x", 6 + sankey.nodeWidth())
         .attr("text-anchor", "start");
@@ -170,7 +170,7 @@ d3.json("data/sank.json", function(error, graph) {
                 "translate("
                 + d.x + ","
                 + (d.y = Math.max(
-                    0, Math.min(height - d.dy, d3.event.y))
+                    0, Math.min(height_sank - d.dy, d3.event.y))
                 ) + ")");
         sankey.relayout();
         link.attr("d", sankey.link());
